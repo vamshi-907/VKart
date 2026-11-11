@@ -1,0 +1,266 @@
+﻿rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ==================================================================
+    // HELPERS
+    // ==================================================================
+
+    // Frozen architecture (Stage 4.3 RC): all three apps (customer, admin,
+    // delivery partner) use app-layer sessions (SharedPreferences /
+    // Firestore `partners` docs) and call Firestore UNAUTHENTICATED. No app
+    // carries a Firebase Auth identity, so every caller is a "staff caller"
+    // and identity is enforced by the applications (document ids =
+    // session email/uid), not by these rules. The isSignedIn()/uid-equality
+    // branches below are kept only as forward-compatible paths for a future
+    // Firebase Auth migration; with no authenticated callers they never
+    // apply.
+    //
+    // KNOWN STRUCTURAL LIMITATION (documented in the Stage 4.1 audit):
+    // because "staff" cannot be distinguished from any other unauthenticated
+    // caller, staff grants below are additionally constrained by field-level
+    // validation wherever the data model allows it (orders, users).
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    function isStaffCaller() {
+      return request.auth == null;
+    }
+    function isOwnerUid(docId) {
+      return isSignedIn() && request.auth.uid == docId;
+    }
+    function nonEmptyString(v) {
+      return v is string && v.size() > 0;
+    }
+
+    // Staff order updates: only the fields the working apps actually write
+    // (status + updatedAt, plus the partner's delivery metadata), and only
+    // forward status transitions. Stored values are camelCase enum names;
+    // 'confirmed' is a legacy alias of 'orderReceived' (CONFIRMED).
+    // orderPlaced -> orderReceived -> delivered; never backwards.
+    function validOrderUpdate() {
+      return request.resource.data.status is string
+        && request.resource.data.diff(resource.data).affectedKeys()
+             .hasOnly(['status', 'updatedAt', 'deliveryNotes',
+                       'deliveryPhotoUrl', 'unableToDeliverReason'])
+        && (
+             ((resource.data.status == 'orderPlaced'
+               || resource.data.status == 'confirmed')
+              && (request.resource.data.status == 'orderReceived'
+                  || request.resource.data.status == 'delivered'))
+             || (resource.data.status == 'orderReceived'
+                 && request.resource.data.status == 'delivered')
+             // idempotent no-op (same status rewritten)
+             || resource.data.status == request.resource.data.status
+           );
+    }
+
+    // Admin's customer-management toggle writes exactly {'active': bool}.
+    function validAdminUserUpdate() {
+      return request.resource.data.diff(resource.data).affectedKeys()
+               .hasOnly(['active'])
+             && request.resource.data.get('active', false) is bool;
+    }
+
+    // ==================================================================
+    // PRODUCTS - Public Read, Staff Write (Admin app)
+    // ==================================================================
+        // All users (authenticated and guest) can read products.
+    // Product create/update/delete is performed by the Admin app. The Admin
+    // app authenticates with Firebase Auth (email/password), so it is an
+    // authenticated caller; the isStaffCaller() branch is retained for the
+    // frozen unauthenticated legacy path. Customers do not authenticate and
+    // therefore cannot satisfy either branch to write products.
+    match /products/{productId} {
+      allow read: if true;
+      allow write: if isStaffCaller();
+    }
+
+    // ==================================================================
+    // USERS - Owner Access (Firebase Auth path) / Staff Caller (frozen
+    // app-layer session path)
+    // ==================================================================
+    // The customer app keys user documents by the session email and writes
+    // its own profile at login; unauthenticated callers pass through the
+    // staff grant exactly as in the audited Stage 4.1 ruleset.
+    match /users/{userId} {
+      allow read: if isOwnerUid(userId) || isStaffCaller();
+      // validAdminUserUpdate: admin's {'active'} toggle.
+      // uid == userId: the customer app's profile save at OTP login writes
+      // its own document (session email == document id == 'uid' field).
+      allow create, update: if isOwnerUid(userId)
+                            || (isStaffCaller() && validAdminUserUpdate())
+                            || (isStaffCaller()
+                                && request.resource.data.get('uid', '') == userId);
+      allow delete: if isOwnerUid(userId);
+
+      // Notifications subcollection (future feature)
+      match /notifications/{notificationId} {
+        allow read: if request.auth != null && request.auth.uid == userId;
+        allow write: if false; // Only server can write
+      }
+    }
+
+    // ==================================================================
+    // ADDRESSES - Authenticated Only, Owner Access
+    // ==================================================================
+    match /addresses/{addressId} {
+      allow read, write: if request.auth != null &&
+                       resource.data.userId == request.auth.uid;
+      allow create: if request.auth != null &&
+                       request.resource.data.userId == request.auth.uid;
+    }
+
+    // ==================================================================
+    // CART - Owner Access (Firebase Auth path) / Staff Caller (frozen
+    // app-layer session path)
+    // ==================================================================
+    // Cart documents are keyed by the customer's session id (email) and are
+    // only written by the owning customer app instance, so unauthenticated
+    // callers pass through the staff grant (same grant pattern as /users).
+    match /cart/{userId} {
+      allow read, write: if isStaffCaller()
+                      || (isSignedIn() && request.auth.uid == userId);
+    }
+
+    // ==================================================================
+    // WISHLIST - Owner Access (Firebase Auth path) / Staff Caller (frozen
+    // app-layer session path)
+    // ==================================================================
+    match /wishlist/{userId} {
+      allow read, write: if isStaffCaller()
+                      || (isSignedIn() && request.auth.uid == userId);
+    }
+
+    // ==================================================================
+    // ORDERS - Owner Read/Create (customer), Staff Update with
+    // FORWARD-ONLY status, No Deletes
+    // ==================================================================
+    match /orders/{orderId} {
+      allow read: if (isSignedIn() && resource.data.userId == request.auth.uid)
+                  || isStaffCaller();
+      allow create: if (isSignedIn() && request.resource.data.userId == request.auth.uid)
+                 || (isStaffCaller() && nonEmptyString(request.resource.data.userId));
+      allow update: if isStaffCaller() && validOrderUpdate();
+      allow delete: if false;
+
+      // Order items subcollection (written by the customer at checkout)
+      match /order_items/{itemId} {
+        allow read: if (isSignedIn() &&
+                        get(/databases/$(database)/documents/orders/$(orderId)).data.userId == request.auth.uid)
+                    || isStaffCaller();
+        allow create: if isSignedIn() &&
+                        get(/databases/$(database)/documents/orders/$(orderId)).data.userId == request.auth.uid;
+        allow update, delete: if false;
+      }
+    }
+
+    // Defensive: a top-level order_items collection (if any legacy data
+    // exists there) stays owner-scoped the same way.
+    match /order_items/{itemId} {
+      allow read: if isStaffCaller() ||
+                  (isSignedIn() && resource.data.userId == request.auth.uid);
+      allow create: if isSignedIn() &&
+                      request.resource.data.userId == request.auth.uid;
+      allow update, delete: if false;
+    }
+
+    // ==================================================================
+    // DELIVERY DETAILS - Owner-Only
+    // ==================================================================
+    // Partner apps take the customer phone from the order document
+    // (persisted at checkout), so delivery_details is written and read by
+    // the owning customer app; unauthenticated callers pass through the
+    // staff grant (same grant pattern as /users).
+    match /delivery_details/{userId} {
+      allow read, write: if isOwnerUid(userId) || isStaffCaller();
+    }
+
+    // ==================================================================
+    // DELIVERY LOCATIONS - Public Read, Staff Write
+    // ==================================================================
+    match /delivery_locations/{locationId} {
+      allow read: if true;
+      allow write: if isStaffCaller();
+    }
+
+    // ==================================================================
+    // CATALOGUE TAXONOMY - Public Read, Staff Write
+    // ==================================================================
+    match /brands/{brandId} {
+      allow read: if true;
+      allow write: if isStaffCaller();
+    }
+    match /categories/{categoryId} {
+      allow read: if true;
+      allow write: if isStaffCaller();
+    }
+    match /sub_categories/{subCategoryId} {
+      allow read: if true;
+      allow write: if isStaffCaller();
+    }
+
+    // ==================================================================
+    // NOTIFICATIONS (broadcast) - Public Read, Staff Write
+    // ==================================================================
+    match /notifications/{notificationId} {
+      allow read: if true;
+      allow write: if isStaffCaller();
+    }
+
+    // ==================================================================
+    // AUDIT LOGS - Staff Only
+    // ==================================================================
+    match /audit_logs/{logId} {
+      allow read, write: if isStaffCaller();
+    }
+
+    // ==================================================================
+    // DELIVERY PARTNERS (admin roster) - Staff Only
+    // ==================================================================
+    match /delivery_partners/{partnerId} {
+      allow read, write: if isStaffCaller();
+    }
+
+    // ==================================================================
+    // PARTNERS (partner app profile; doc id == partner email)
+    // ==================================================================
+    // The partner app has no Firebase Auth identity yet, so the login
+    // write cannot be scoped tighter than "staff caller"; deletes are
+    // never allowed from clients.
+    match /partners/{email} {
+      // Staff-only read: the document carries partner session tokens and
+      // must not be world-readable.
+      allow read: if isStaffCaller();
+      allow create, update: if isStaffCaller();
+      allow delete: if false;
+    }
+
+    // ==================================================================
+    // ADMINS (roster) - Read-Only from clients; managed via console
+    // ==================================================================
+    match /admins/{adminId} {
+      // Allowlist is checked at admin login (unauthenticated = staff
+      // caller); no reason for signed-in customers to read it.
+      allow read: if isStaffCaller();
+      allow write: if false;
+    }
+
+    // ==================================================================
+    // SETTINGS - Global business config: Public Read, Staff Write.
+    // Per-user settings docs (doc id == uid) remain owner-writable.
+    // ==================================================================
+    match /settings/{docId} {
+      allow read: if true;
+      allow write: if isStaffCaller() || isOwnerUid(docId);
+    }
+
+    // ==================================================================
+    // DEFAULT DENY
+    // ==================================================================
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
+

@@ -1,0 +1,10 @@
+﻿s43_bld_a_aab.exit: A_AAB:0  
+
+s43_bld_a_apk.exit: A_APK:0  
+
+s43_bld_c_aab2.exit: C_AAB:0  
+
+s43_bld_p_aab.exit: P_AAB:0  
+
+s43_bld_p_apk.exit: P_APK:0  
+

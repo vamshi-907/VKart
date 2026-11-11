@@ -1,0 +1,4 @@
+﻿"project_id": "vkart-1",
+"package_name": "com.example.vkart_customer"
+"package_name": "com.vkart.vkart_admin"
+"package_name": "com.vkart.vkart_admin",

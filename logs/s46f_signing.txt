@@ -1,0 +1,57 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v3.2 scheme (APK Signature Scheme v3.2): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+V2 Signer: certificate DN: CN=VKart, OU=VKart, O=VKart, L=Hyderabad, ST=Telangana, C=IN
+V2 Signer: certificate SHA-256 digest: 9a316ab1c08db6392c7698989d553e960e66d51a5fccdab5a59d4a560166ecb7
+V2 Signer: certificate SHA-1 digest: ff457a32a8d20dab30bb5b295e3525f28a54fc4f
+V2 Signer: certificate MD5 digest: 619d2b6a6e74b72a93956bdaf8a38874
+V2 Signer: key algorithm: RSA
+V2 Signer: key size (bits): 4096
+V2 Signer: public key SHA-256 digest: ecc74414f9b4061aae6a8c9556a7755be7a79ec3d0fe07f5adad181d7b22186a
+V2 Signer: public key SHA-1 digest: e4f81af8f286f00ed437c10d906ea3e2cae22e7c
+V2 Signer: public key MD5 digest: 034408e90d0c2bcd6aabe4949cb1ce92
+---CUSTAPK_END--- 
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v3.2 scheme (APK Signature Scheme v3.2): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+V2 Signer: certificate DN: CN=VKart, OU=VKart, O=VKart, L=Hyderabad, ST=Telangana, C=IN
+V2 Signer: certificate SHA-256 digest: 9a316ab1c08db6392c7698989d553e960e66d51a5fccdab5a59d4a560166ecb7
+V2 Signer: certificate SHA-1 digest: ff457a32a8d20dab30bb5b295e3525f28a54fc4f
+V2 Signer: certificate MD5 digest: 619d2b6a6e74b72a93956bdaf8a38874
+V2 Signer: key algorithm: RSA
+V2 Signer: key size (bits): 4096
+V2 Signer: public key SHA-256 digest: ecc74414f9b4061aae6a8c9556a7755be7a79ec3d0fe07f5adad181d7b22186a
+V2 Signer: public key SHA-1 digest: e4f81af8f286f00ed437c10d906ea3e2cae22e7c
+V2 Signer: public key MD5 digest: 034408e90d0c2bcd6aabe4949cb1ce92
+---ADMAPK_END--- 
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v3.2 scheme (APK Signature Scheme v3.2): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+V2 Signer: certificate DN: CN=VKart, OU=VKart, O=VKart, L=Hyderabad, ST=Telangana, C=IN
+V2 Signer: certificate SHA-256 digest: 9a316ab1c08db6392c7698989d553e960e66d51a5fccdab5a59d4a560166ecb7
+V2 Signer: certificate SHA-1 digest: ff457a32a8d20dab30bb5b295e3525f28a54fc4f
+V2 Signer: certificate MD5 digest: 619d2b6a6e74b72a93956bdaf8a38874
+V2 Signer: key algorithm: RSA
+V2 Signer: key size (bits): 4096
+V2 Signer: public key SHA-256 digest: ecc74414f9b4061aae6a8c9556a7755be7a79ec3d0fe07f5adad181d7b22186a
+V2 Signer: public key SHA-1 digest: e4f81af8f286f00ed437c10d906ea3e2cae22e7c
+V2 Signer: public key MD5 digest: 034408e90d0c2bcd6aabe4949cb1ce92
+---PARTAPK_END---

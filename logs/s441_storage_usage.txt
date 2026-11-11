@@ -1,0 +1,32 @@
+﻿C:\vkart\vkart_admin\lib\firebase_options.dart:49: storageBucket: 'vkart-1.firebasestorage.app',
+C:\vkart\vkart_admin\lib\firebase_options.dart:58: storageBucket: 'vkart-1.firebasestorage.app',
+C:\vkart\vkart_admin\lib\firebase_options.dart:66: storageBucket: 'vkart-1.firebasestorage.app',
+C:\vkart\vkart_admin\lib\firebase_options.dart:77: storageBucket: 'vkart-1.firebasestorage.app',
+C:\vkart\vkart_admin\lib\firebase_options.dart:89: storageBucket: 'vkart-1.firebasestorage.app',
+C:\vkart\vkart_admin\lib\repositories\admin_brand_repository.dart:3: import 'package:firebase_storage/firebase_storage.dart';
+C:\vkart\vkart_admin\lib\repositories\admin_brand_repository.dart:8: final FirebaseStorage _storage = FirebaseStorage.instance;
+C:\vkart\vkart_admin\lib\repositories\admin_brand_repository.dart:24: final ref = _storage.ref().child(
+C:\vkart\vkart_admin\lib\repositories\admin_brand_repository.dart:28: return await ref.getDownloadURL();
+C:\vkart\vkart_admin\lib\repositories\admin_category_repository.dart:3: import 'package:firebase_storage/firebase_storage.dart';
+C:\vkart\vkart_admin\lib\repositories\admin_category_repository.dart:8: final FirebaseStorage _storage = FirebaseStorage.instance;
+C:\vkart\vkart_admin\lib\repositories\admin_category_repository.dart:24: final ref = _storage.ref().child(
+C:\vkart\vkart_admin\lib\repositories\admin_category_repository.dart:28: return await ref.getDownloadURL();
+C:\vkart\vkart_admin\lib\repositories\admin_notification_repository.dart:3: import 'package:firebase_storage/firebase_storage.dart';
+C:\vkart\vkart_admin\lib\repositories\admin_notification_repository.dart:8: final FirebaseStorage _storage = FirebaseStorage.instance;
+C:\vkart\vkart_admin\lib\repositories\admin_notification_repository.dart:24: final ref = _storage.ref().child(
+C:\vkart\vkart_admin\lib\repositories\admin_notification_repository.dart:28: return await ref.getDownloadURL();
+C:\vkart\vkart_admin\lib\repositories\admin_product_repository.dart:4: import 'package:firebase_storage/firebase_storage.dart';
+C:\vkart\vkart_admin\lib\repositories\admin_product_repository.dart:15: final FirebaseStorage _storage = FirebaseStorage.instance;
+C:\vkart\vkart_admin\lib\repositories\admin_product_repository.dart:41: /// Adds a new product (uploading all images to Firebase Storage under
+C:\vkart\vkart_admin\lib\repositories\admin_product_repository.dart:65: /// Uploads [files] to Firebase Storage under the `products/` folder and
+C:\vkart\vkart_admin\lib\repositories\admin_product_repository.dart:70: final ref = _storage.ref().child(
+C:\vkart\vkart_admin\lib\repositories\admin_product_repository.dart:74: urls.add(await ref.getDownloadURL());
+C:\vkart\vkart_admin\lib\repositories\admin_product_repository.dart:121: await _db.collection(_collection).doc(id).delete();
+C:\vkart\vkart_admin\lib\repositories\admin_settings_repository.dart:3: import 'package:firebase_storage/firebase_storage.dart';
+C:\vkart\vkart_admin\lib\repositories\admin_settings_repository.dart:8: final FirebaseStorage _storage = FirebaseStorage.instance;
+C:\vkart\vkart_admin\lib\repositories\admin_settings_repository.dart:56: final ref = _storage.ref().child(
+C:\vkart\vkart_admin\lib\repositories\admin_settings_repository.dart:60: return await ref.getDownloadURL();
+C:\vkart\vkart_admin\lib\repositories\admin_sub_category_repository.dart:3: import 'package:firebase_storage/firebase_storage.dart';
+C:\vkart\vkart_admin\lib\repositories\admin_sub_category_repository.dart:8: final FirebaseStorage _storage = FirebaseStorage.instance;
+C:\vkart\vkart_admin\lib\repositories\admin_sub_category_repository.dart:24: final ref = _storage.ref().child(
+C:\vkart\vkart_admin\lib\repositories\admin_sub_category_repository.dart:28: return await ref.getDownloadURL();

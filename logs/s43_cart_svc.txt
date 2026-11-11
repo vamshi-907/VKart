@@ -1,0 +1,6 @@
+﻿15: static const String _cartCollection = 'cart';
+22: static const String _wishlistCollection = 'wishlist';
+152: final doc = await _db.collection(_cartCollection).doc(userId).get();
+158: await _db.collection(_cartCollection).doc(userId).set(data);
+248: final doc = await _db.collection(_wishlistCollection).doc(userId).get();
+254: await _db.collection(_wishlistCollection).doc(userId).set(data);

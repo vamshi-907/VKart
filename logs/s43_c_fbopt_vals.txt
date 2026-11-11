@@ -1,0 +1,8 @@
+﻿apiKey: 'AIzaSyBSdx5WQ7uOcDrzRkd_oJF5RaOT2d8-ObY',
+appId: '1:773093189958:web:6325a7fc6286684dfb9d47',
+projectId: 'vkart-1',
+apiKey: 'AIzaSyA5H6xfdQEsk2yHXfYLY2Mz3aJf6D_Z4rA',
+appId: '1:773093189958:android:754a5c11cb56815afb9d47',
+projectId: 'vkart-1',
+apiKey: 'AIzaSyC3arp8aKChEONQQ6XysiCwP-goE_mL7JY',
+appId: '1:773093189958:ios:8322b2b34130addcfb9d47',

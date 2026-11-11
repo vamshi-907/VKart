@@ -1,0 +1,1 @@
+﻿√ Built build\app\outputs\flutter-apk\app-release.apk (71.5MB)

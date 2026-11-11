@@ -1,0 +1,4 @@
+﻿admin_product_repository.dart: /// `products/`).
+admin_product_repository.dart: /// Uploads [files] to Firebase Storage under the `products/` folder and
+admin_product_repository.dart: 'products/${DateTime.now().millisecondsSinceEpoch}_${image.path.split('/').last}',
+admin_settings_repository.dart: 'business_assets/${DateTime.now().millisecondsSinceEpoch}_$name',

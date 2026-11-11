@@ -1,0 +1,127 @@
+{
+  "name": "projects/vkart-1/databases/(default)/documents/products/1",
+  "fields": {
+    "deliveryTime": {
+      "stringValue": "with in 60 mins"
+    },
+    "categoryId": {
+      "stringValue": ""
+    },
+    "price": {
+      "doubleValue": 138
+    },
+    "updatedAt": {
+      "timestampValue": "2026-09-08T09:09:28.853Z"
+    },
+    "weight": {
+      "stringValue": "1 litre"
+    },
+    "subCategoryId": {
+      "stringValue": ""
+    },
+    "name": {
+      "stringValue": "Priya Gold Palm Oil  1 litre"
+    },
+    "mrp": {
+      "doubleValue": 185
+    },
+    "descriptionTelugu": {
+      "stringValue": ""
+    },
+    "images": {
+      "arrayValue": {
+        "values": [
+          {
+            "stringValue": "https://priyagoldoils.com/img/new/product8.png"
+          }
+        ]
+      }
+    },
+    "variants": {
+      "arrayValue": {
+        "values": [
+          {
+            "mapValue": {
+              "fields": {
+                "offerPrice": {
+                  "doubleValue": 135
+                },
+                "stock": {
+                  "integerValue": "999"
+                },
+                "active": {
+                  "booleanValue": true
+                },
+                "weight": {
+                  "stringValue": "1 litre"
+                },
+                "price": {
+                  "doubleValue": 138
+                },
+                "mrp": {
+                  "doubleValue": 185
+                },
+                "sku": {
+                  "stringValue": "0"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "brandId": {
+      "stringValue": ""
+    },
+    "brandName": {
+      "stringValue": "Priya Gold"
+    },
+    "stockStatus": {
+      "stringValue": "InStock"
+    },
+    "id": {
+      "stringValue": "1"
+    },
+    "stock": {
+      "integerValue": "999"
+    },
+    "active": {
+      "booleanValue": true
+    },
+    "gst": {
+      "doubleValue": 0
+    },
+    "subCategoryName": {
+      "stringValue": ""
+    },
+    "category": {
+      "stringValue": "Cooking Oil's"
+    },
+    "descriptionEnglish": {
+      "stringValue": "Palm Oil"
+    },
+    "nameEnglish": {
+      "stringValue": "Priya Gold Palm Oil  1 litre"
+    },
+    "createdAt": {
+      "stringValue": "2026-08-07T20:08:30.057363"
+    },
+    "categoryName": {
+      "stringValue": "Cooking Oil's"
+    },
+    "displayOrder": {
+      "integerValue": "0"
+    },
+    "brand": {
+      "stringValue": "Priya Gold"
+    },
+    "image": {
+      "stringValue": "https://priyagoldoils.com/img/new/product8.png"
+    },
+    "nameTelugu": {
+      "stringValue": ""
+    }
+  },
+  "createTime": "2026-07-15T15:21:33.814588Z",
+  "updateTime": "2026-09-08T09:09:28.890746Z"
+}

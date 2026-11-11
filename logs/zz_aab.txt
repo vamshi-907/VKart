@@ -1,0 +1,3 @@
+﻿C:\vkart\vkart_customer\build\app\outputs\bundle\release\app-release.aab | ZIP_OK entries=496 manifest=1 dex=1 bundleconfig=1 res=289
+C:\vkart\vkart_admin\build\app\outputs\bundle\release\app-release.aab | ZIP_OK entries=497 manifest=1 dex=1 bundleconfig=1 res=289
+C:\vkart\vkart_delivery_partner\build\app\outputs\bundle\release\app-release.aab | ZIP_OK entries=500 manifest=1 dex=1 bundleconfig=1 res=289

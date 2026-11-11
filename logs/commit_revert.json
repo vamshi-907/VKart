@@ -1,0 +1,23 @@
+{
+  "writes": [
+    {
+      "update": {
+        "name": "projects/vkart-1/databases/(default)/documents/orders/VK-20260718-235359",
+        "fields": {
+          "status": {
+            "stringValue": "placed"
+          },
+          "updatedAt": {
+            "timestampValue": "2026-09-09T05:00:01.000Z"
+          }
+        }
+      },
+      "updateMask": {
+        "fieldPaths": [
+          "status",
+          "updatedAt"
+        ]
+      }
+    }
+  ]
+}

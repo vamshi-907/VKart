@@ -1,0 +1,976 @@
+{
+  "documents": [
+    {
+      "name": "projects/vkart-1/databases/(default)/documents/orders/VK-20260718-235359",
+      "fields": {
+        "subtotal": {
+          "doubleValue": 953
+        },
+        "customerPhone": {
+          "stringValue": "8639243604"
+        },
+        "createdAtMs": {
+          "integerValue": "1784362235359"
+        },
+        "deliveryCharge": {
+          "doubleValue": 0
+        },
+        "grandTotal": {
+          "doubleValue": 953
+        },
+        "status": {
+          "stringValue": "placed"
+        },
+        "customerName": {
+          "stringValue": "vamshi"
+        },
+        "createdAt": {
+          "timestampValue": "2026-07-18T08:10:36.216Z"
+        },
+        "orderId": {
+          "stringValue": "VK-20260718-235359"
+        },
+        "items": {
+          "arrayValue": {
+            "values": [
+              {
+                "mapValue": {
+                  "fields": {
+                    "price": {
+                      "doubleValue": 180
+                    },
+                    "productId": {
+                      "stringValue": "7"
+                    },
+                    "name": {
+                      "stringValue": "Groundnut  Oil 1 litre"
+                    },
+                    "image": {
+                      "stringValue": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzYqjaBOgxhmLqH39sMJA7NkZ3Sd5WJoHRTA-0QMM-ow&s=10"
+                    },
+                    "quantity": {
+                      "integerValue": "3"
+                    },
+                    "weight": {
+                      "stringValue": "1 litre"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "productId": {
+                      "stringValue": "1"
+                    },
+                    "price": {
+                      "doubleValue": 133
+                    },
+                    "name": {
+                      "stringValue": "Priya Gold Palm Oil  1 litre"
+                    },
+                    "image": {
+                      "stringValue": "https://priyagoldoils.com/img/new/product8.png"
+                    },
+                    "weight": {
+                      "stringValue": "1 litre"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "image": {
+                      "stringValue": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6NctYS9x1-mbQ3QOBF874DMu_-mXewR7brN3U0OJ4sw&s=10"
+                    },
+                    "weight": {
+                      "stringValue": "1000g"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "price": {
+                      "doubleValue": 140
+                    },
+                    "productId": {
+                      "stringValue": "101"
+                    },
+                    "name": {
+                      "stringValue": "Pallilu (GroundNuts) - 1kg"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "productId": {
+                      "stringValue": "103"
+                    },
+                    "price": {
+                      "doubleValue": 140
+                    },
+                    "name": {
+                      "stringValue": "Minipapapu (Urad Dal) - 1kg"
+                    },
+                    "image": {
+                      "stringValue": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9YSpZllbM_Jy0omuHxY2ASfRcxBvRtS7SB8v_S1B4Kw&s=10"
+                    },
+                    "weight": {
+                      "stringValue": "1000g"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "paymentMethod": {
+          "stringValue": "Cash on Delivery"
+        },
+        "customerId": {
+          "stringValue": "CUST-1784362235377-2901a7c"
+        },
+        "address": {
+          "mapValue": {
+            "fields": {
+              "name": {
+                "stringValue": "vamshi"
+              },
+              "houseNo": {
+                "stringValue": "7-119"
+              },
+              "landmark": {
+                "stringValue": "kranthi transport"
+              },
+              "phone": {
+                "stringValue": "8639243604"
+              },
+              "village": {
+                "stringValue": "shanthi nagar"
+              },
+              "pincode": {
+                "stringValue": "509126"
+              }
+            }
+          }
+        }
+      },
+      "createTime": "2026-07-18T08:10:36.267952Z",
+      "updateTime": "2026-07-18T08:10:36.267952Z"
+    },
+    {
+      "name": "projects/vkart-1/databases/(default)/documents/orders/VK-20260719-022353",
+      "fields": {
+        "subtotal": {
+          "doubleValue": 2901
+        },
+        "createdAtMs": {
+          "integerValue": "1784461022353"
+        },
+        "paymentMethod": {
+          "stringValue": "Cash on Delivery"
+        },
+        "customerId": {
+          "stringValue": "CUST-1784362235377-2901a7c"
+        },
+        "items": {
+          "arrayValue": {
+            "values": [
+              {
+                "mapValue": {
+                  "fields": {
+                    "productId": {
+                      "stringValue": "1"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "image": {
+                      "stringValue": "https://priyagoldoils.com/img/new/product8.png"
+                    },
+                    "name": {
+                      "stringValue": "Priya Gold Palm Oil  1 litre"
+                    },
+                    "price": {
+                      "doubleValue": 133
+                    },
+                    "weight": {
+                      "stringValue": "1 litre"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "name": {
+                      "stringValue": "Priya SunFlower Oil   C/S"
+                    },
+                    "price": {
+                      "doubleValue": 2768
+                    },
+                    "weight": {
+                      "stringValue": "16 litres / 16 pkts"
+                    },
+                    "image": {
+                      "stringValue": "https://www.bbassets.com/media/uploads/p/xl/40161823_3-priya-gold-sunflower-oil.jpg"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "productId": {
+                      "stringValue": "11"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "createdAt": {
+          "timestampValue": "2026-07-19T11:37:03.795Z"
+        },
+        "address": {
+          "mapValue": {
+            "fields": {
+              "landmark": {
+                "stringValue": "kranthi transport"
+              },
+              "houseNo": {
+                "stringValue": "7-119"
+              },
+              "phone": {
+                "stringValue": "8639243604"
+              },
+              "name": {
+                "stringValue": "vamshi"
+              },
+              "village": {
+                "stringValue": "shanthi nagar"
+              },
+              "pincode": {
+                "stringValue": "509126"
+              }
+            }
+          }
+        },
+        "villageNameTelugu": {
+          "stringValue": "శాంతి నగర్"
+        },
+        "deliveryCharge": {
+          "doubleValue": 0
+        },
+        "villageId": {
+          "stringValue": "shanthi_nagar"
+        },
+        "villageName": {
+          "stringValue": "Shanthi Nagar"
+        },
+        "status": {
+          "stringValue": "placed"
+        },
+        "customerPhone": {
+          "stringValue": "8639243604"
+        },
+        "orderId": {
+          "stringValue": "VK-20260719-022353"
+        },
+        "grandTotal": {
+          "doubleValue": 2901
+        },
+        "customerName": {
+          "stringValue": "vamshi"
+        }
+      },
+      "createTime": "2026-07-19T11:37:03.948842Z",
+      "updateTime": "2026-07-19T11:37:03.948842Z"
+    },
+    {
+      "name": "projects/vkart-1/databases/(default)/documents/orders/VK-20260722-626028",
+      "fields": {
+        "updatedAt": {
+          "timestampValue": "2026-08-09T12:43:58.477Z"
+        },
+        "villageNameTelugu": {
+          "stringValue": "కోయిల్దిన్నె"
+        },
+        "deliveryCharge": {
+          "doubleValue": 0
+        },
+        "subtotal": {
+          "doubleValue": 840
+        },
+        "villageId": {
+          "stringValue": "koildinne"
+        },
+        "createdAtMs": {
+          "integerValue": "1784730626028"
+        },
+        "grandTotal": {
+          "doubleValue": 840
+        },
+        "createdAt": {
+          "timestampValue": "2026-07-22T14:30:28.415Z"
+        },
+        "paymentMethod": {
+          "stringValue": "Cash on Delivery"
+        },
+        "customerPhone": {
+          "stringValue": "8639243604"
+        },
+        "items": {
+          "arrayValue": {
+            "values": [
+              {
+                "mapValue": {
+                  "fields": {
+                    "image": {
+                      "stringValue": "https://priyagoldoils.com/img/new/product8.png"
+                    },
+                    "productId": {
+                      "stringValue": "1"
+                    },
+                    "weight": {
+                      "stringValue": "1 litre"
+                    },
+                    "price": {
+                      "doubleValue": 133
+                    },
+                    "name": {
+                      "stringValue": "Priya Gold Palm Oil  1 litre"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "weight": {
+                      "stringValue": "1 litre"
+                    },
+                    "price": {
+                      "doubleValue": 175
+                    },
+                    "name": {
+                      "stringValue": "Freedom RiceBran Oil  1  litre"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "image": {
+                      "stringValue": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT27CYbZ4AsMNXNd1sAtavaM5yhrINdvpS31LJOvNmEfQ&s=10"
+                    },
+                    "productId": {
+                      "stringValue": "4"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "name": {
+                      "stringValue": "Pallilu (GroundNuts) - 1kg"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "weight": {
+                      "stringValue": "1000g"
+                    },
+                    "price": {
+                      "doubleValue": 140
+                    },
+                    "productId": {
+                      "stringValue": "101"
+                    },
+                    "image": {
+                      "stringValue": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6NctYS9x1-mbQ3QOBF874DMu_-mXewR7brN3U0OJ4sw&s=10"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "productId": {
+                      "stringValue": "12"
+                    },
+                    "image": {
+                      "stringValue": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn1CbyOUHIz1UM8domlplAXC8PBHZy00rFAok-ZhBm4g&s=10"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "name": {
+                      "stringValue": "Santoor - 100g - Red"
+                    },
+                    "price": {
+                      "doubleValue": 39
+                    },
+                    "weight": {
+                      "stringValue": "100g"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "productId": {
+                      "stringValue": "17"
+                    },
+                    "image": {
+                      "stringValue": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMeWgUlUt5GoK_xUjV3ZqJd3vA-LxjfGBxNI8_Xr7HOw&s"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "name": {
+                      "stringValue": "Mysore Sandal Soap - 75g"
+                    },
+                    "price": {
+                      "doubleValue": 37
+                    },
+                    "weight": {
+                      "stringValue": "75g"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "name": {
+                      "stringValue": "Red Label - 100g"
+                    },
+                    "price": {
+                      "doubleValue": 49
+                    },
+                    "weight": {
+                      "stringValue": "100g"
+                    },
+                    "productId": {
+                      "stringValue": "34"
+                    },
+                    "image": {
+                      "stringValue": "https://imgwlns.gumlet.io/images/products/260857-1.jpg"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "image": {
+                      "stringValue": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJDRmM7fCmnHlmPxAYQ0EJ3xc65nkBofYnSgZoZzKVTw&s=10"
+                    },
+                    "productId": {
+                      "stringValue": "41"
+                    },
+                    "weight": {
+                      "stringValue": "110g"
+                    },
+                    "price": {
+                      "doubleValue": 71
+                    },
+                    "name": {
+                      "stringValue": "Colgate - 110g"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "image": {
+                      "stringValue": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1wETL-c2V_wWUzNB_jX6dNAWR6MtksHqtpJz0l1H3uFU828qS2Awn7vzE&s=10"
+                    },
+                    "productId": {
+                      "stringValue": "55"
+                    },
+                    "price": {
+                      "doubleValue": 10
+                    },
+                    "weight": {
+                      "stringValue": "150g"
+                    },
+                    "quantity": {
+                      "integerValue": "2"
+                    },
+                    "name": {
+                      "stringValue": "xxx - 150g"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "image": {
+                      "stringValue": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_1M-YCpEgFHY6DbO4uUlRPzmymwaiggKaQiw0cjJKJw&s"
+                    },
+                    "productId": {
+                      "stringValue": "68"
+                    },
+                    "price": {
+                      "doubleValue": 65
+                    },
+                    "weight": {
+                      "stringValue": "100ml"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "name": {
+                      "stringValue": "Parachute - 100ml"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "image": {
+                      "stringValue": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdLVcxnimxqemBfZj_mkK96o2ZOUq86ZQZ3zkvR3hNqw&s=10"
+                    },
+                    "productId": {
+                      "stringValue": "62"
+                    },
+                    "weight": {
+                      "stringValue": "500g"
+                    },
+                    "price": {
+                      "doubleValue": 50
+                    },
+                    "name": {
+                      "stringValue": "Rin - 500g"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "name": {
+                      "stringValue": "Clinc Plus - (24 x 0.5p)"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "weight": {
+                      "stringValue": "24 pcs"
+                    },
+                    "price": {
+                      "doubleValue": 11
+                    },
+                    "productId": {
+                      "stringValue": "81"
+                    },
+                    "image": {
+                      "stringValue": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ453Tw7zrwkn8y6pjcbPhPK-33hiiRIwqN9n-R6rNezDTzG86RgjhP5Fg&s=10"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "name": {
+                      "stringValue": "Zed Black"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "weight": {
+                      "stringValue": "Nil"
+                    },
+                    "price": {
+                      "doubleValue": 50
+                    },
+                    "productId": {
+                      "stringValue": "91"
+                    },
+                    "image": {
+                      "stringValue": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSemBnF3PCRWxz-Zi8J_7mBFLVCpkkkP3ouj1poRjqEJg&s=10"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "orderId": {
+          "stringValue": "VK-20260722-626028"
+        },
+        "customerName": {
+          "stringValue": "vamshi"
+        },
+        "address": {
+          "mapValue": {
+            "fields": {
+              "landmark": {
+                "stringValue": "kranthi transport"
+              },
+              "name": {
+                "stringValue": "vamshi"
+              },
+              "houseNo": {
+                "stringValue": "7-119"
+              },
+              "village": {
+                "stringValue": "shanthi nagar"
+              },
+              "pincode": {
+                "stringValue": "509126"
+              },
+              "phone": {
+                "stringValue": "8639243604"
+              }
+            }
+          }
+        },
+        "customerId": {
+          "stringValue": "CUST-1784362235377-2901a7c"
+        },
+        "status": {
+          "stringValue": "delivered"
+        },
+        "villageName": {
+          "stringValue": "Koildinne"
+        }
+      },
+      "createTime": "2026-07-22T14:30:28.486899Z",
+      "updateTime": "2026-08-09T12:43:58.510078Z"
+    },
+    {
+      "name": "projects/vkart-1/databases/(default)/documents/orders/VK-20260810-880803",
+      "fields": {
+        "subtotal": {
+          "doubleValue": 635
+        },
+        "createdAtMs": {
+          "integerValue": "1786376880803"
+        },
+        "villageNameTelugu": {
+          "stringValue": ""
+        },
+        "grandTotal": {
+          "doubleValue": 635
+        },
+        "customerPhone": {
+          "stringValue": "8639243604"
+        },
+        "createdAt": {
+          "timestampValue": "2026-08-10T15:48:16.688Z"
+        },
+        "deliveryCharge": {
+          "doubleValue": 0
+        },
+        "paymentMethod": {
+          "stringValue": "Cash on Delivery"
+        },
+        "address": {
+          "mapValue": {
+            "fields": {
+              "landmark": {
+                "stringValue": "kranthi transport"
+              },
+              "phone": {
+                "stringValue": "8639243604"
+              },
+              "village": {
+                "stringValue": "shanthi nagar"
+              },
+              "pincode": {
+                "stringValue": "509126"
+              },
+              "name": {
+                "stringValue": "vamshi"
+              },
+              "houseNo": {
+                "stringValue": "7-119"
+              }
+            }
+          }
+        },
+        "villageName": {
+          "stringValue": ""
+        },
+        "villageId": {
+          "stringValue": ""
+        },
+        "customerName": {
+          "stringValue": "vamshi"
+        },
+        "status": {
+          "stringValue": "packed"
+        },
+        "items": {
+          "arrayValue": {
+            "values": [
+              {
+                "mapValue": {
+                  "fields": {
+                    "image": {
+                      "stringValue": "https://www.bbassets.com/media/uploads/p/l/271035_4-freedom-refined-oil-sunflower.jpg"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "productId": {
+                      "stringValue": "3"
+                    },
+                    "price": {
+                      "doubleValue": 175
+                    },
+                    "name": {
+                      "stringValue": "Freedom SunFlower Oil  1 litre"
+                    },
+                    "weight": {
+                      "stringValue": "1 litre"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "image": {
+                      "stringValue": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzYqjaBOgxhmLqH39sMJA7NkZ3Sd5WJoHRTA-0QMM-ow&s=10"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "productId": {
+                      "stringValue": "7"
+                    },
+                    "price": {
+                      "doubleValue": 180
+                    },
+                    "name": {
+                      "stringValue": "Groundnut  Oil 1 litre"
+                    },
+                    "weight": {
+                      "stringValue": "1 litre"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "image": {
+                      "stringValue": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6NctYS9x1-mbQ3QOBF874DMu_-mXewR7brN3U0OJ4sw&s=10"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "productId": {
+                      "stringValue": "101"
+                    },
+                    "price": {
+                      "doubleValue": 140
+                    },
+                    "name": {
+                      "stringValue": "Pallilu (GroundNuts) - 1kg"
+                    },
+                    "weight": {
+                      "stringValue": "1000g"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "image": {
+                      "stringValue": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9YSpZllbM_Jy0omuHxY2ASfRcxBvRtS7SB8v_S1B4Kw&s=10"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "productId": {
+                      "stringValue": "103"
+                    },
+                    "price": {
+                      "doubleValue": 140
+                    },
+                    "name": {
+                      "stringValue": "Minipapapu (Urad Dal) - 1kg"
+                    },
+                    "weight": {
+                      "stringValue": "1000g"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "updatedAt": {
+          "timestampValue": "2026-08-20T10:43:07.023Z"
+        },
+        "orderId": {
+          "stringValue": "VK-20260810-880803"
+        },
+        "customerId": {
+          "stringValue": "CUST-1784362235377-2901a7c"
+        }
+      },
+      "createTime": "2026-08-10T15:48:16.738680Z",
+      "updateTime": "2026-08-20T10:43:07.079287Z"
+    },
+    {
+      "name": "projects/vkart-1/databases/(default)/documents/orders/VK-20260810-967672",
+      "fields": {
+        "customerName": {
+          "stringValue": "vamshi"
+        },
+        "deliveryCharge": {
+          "doubleValue": 0
+        },
+        "customerPhone": {
+          "stringValue": "8639243604"
+        },
+        "status": {
+          "stringValue": "delivered"
+        },
+        "villageNameTelugu": {
+          "stringValue": ""
+        },
+        "villageName": {
+          "stringValue": ""
+        },
+        "grandTotal": {
+          "doubleValue": 310
+        },
+        "items": {
+          "arrayValue": {
+            "values": [
+              {
+                "mapValue": {
+                  "fields": {
+                    "image": {
+                      "stringValue": "https://priyagoldoils.com/img/new/product8.png"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "productId": {
+                      "stringValue": "1"
+                    },
+                    "price": {
+                      "doubleValue": 135
+                    },
+                    "name": {
+                      "stringValue": "Priya Gold Palm Oil  1 litre"
+                    },
+                    "weight": {
+                      "stringValue": "1 litre"
+                    }
+                  }
+                }
+              },
+              {
+                "mapValue": {
+                  "fields": {
+                    "image": {
+                      "stringValue": "https://www.bbassets.com/media/uploads/p/l/271035_4-freedom-refined-oil-sunflower.jpg"
+                    },
+                    "quantity": {
+                      "integerValue": "1"
+                    },
+                    "productId": {
+                      "stringValue": "3"
+                    },
+                    "price": {
+                      "doubleValue": 175
+                    },
+                    "name": {
+                      "stringValue": "Freedom SunFlower Oil  1 litre"
+                    },
+                    "weight": {
+                      "stringValue": "1 litre"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "createdAt": {
+          "timestampValue": "2026-08-10T14:59:43.345Z"
+        },
+        "villageId": {
+          "stringValue": ""
+        },
+        "subtotal": {
+          "doubleValue": 310
+        },
+        "orderId": {
+          "stringValue": "VK-20260810-967672"
+        },
+        "updatedAt": {
+          "timestampValue": "2026-08-20T18:16:58.678Z"
+        },
+        "paymentMethod": {
+          "stringValue": "Cash on Delivery"
+        },
+        "createdAtMs": {
+          "integerValue": "1786373967672"
+        },
+        "address": {
+          "mapValue": {
+            "fields": {
+              "pincode": {
+                "stringValue": "509126"
+              },
+              "village": {
+                "stringValue": "shanthi nagar"
+              },
+              "name": {
+                "stringValue": "vamshi"
+              },
+              "landmark": {
+                "stringValue": "kranthi transport"
+              },
+              "phone": {
+                "stringValue": "8639243604"
+              },
+              "houseNo": {
+                "stringValue": "7-119"
+              }
+            }
+          }
+        },
+        "customerId": {
+          "stringValue": "CUST-1784362235377-2901a7c"
+        }
+      },
+      "createTime": "2026-08-10T14:59:43.390626Z",
+      "updateTime": "2026-08-20T18:16:58.705261Z"
+    }
+  ],
+  "nextPageToken": "AFTOeJzhoMH1iWUrUwm7q56Qbl79drcigY3FiVPCLh2ni4OxOzFsvAqkDY2_pgGil6CCmifdaGRo12odowIDDXO1tYiA6_fzPql55UCJB94NccWr-6MEIHmUpGBx040"
+}

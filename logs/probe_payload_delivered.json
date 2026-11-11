@@ -1,0 +1,10 @@
+{
+  "fields": {
+    "status": {
+      "stringValue": "delivered"
+    },
+    "updatedAt": {
+      "timestampValue": "2026-09-09T00:00:02.000Z"
+    }
+  }
+}

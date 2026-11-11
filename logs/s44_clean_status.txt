@@ -1,0 +1,9 @@
+﻿s44_an_a.exit: AN_A:0
+s44_an_c.exit: AN_C:0
+s44_an_p.exit: AN_P:0
+s44_clean_a.exit: CLEAN_A:0
+s44_clean_c.exit: CLEAN_C:0
+s44_clean_p.exit: CLEAN_P:0
+s44_pub_a.exit: PUB_A:0
+s44_pub_c.exit: PUB_C:0
+s44_pub_p.exit: PUB_P:0

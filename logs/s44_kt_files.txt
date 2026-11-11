@@ -1,0 +1,3 @@
+﻿C:\vkart\vkart_customer\android\app\src\main\kotlin\com\vkart\customer\MainActivity.kt
+C:\vkart\vkart_admin\android\app\src\main\kotlin\com\vkart\admin\MainActivity.kt
+C:\vkart\vkart_delivery_partner\android\app\src\main\kotlin\com\vkart\deliverypartner\MainActivity.kt

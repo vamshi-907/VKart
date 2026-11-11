@@ -1,0 +1,14 @@
+﻿C:\vkart\vkart_customer\lib\main.dart:62: create: (_) => DeliveryLocationProvider(),
+C:\vkart\vkart_customer\lib\providers\delivery_location_provider.dart:6: class DeliveryLocationProvider extends ChangeNotifier {
+C:\vkart\vkart_customer\lib\providers\delivery_location_provider.dart:7: DeliveryLocationProvider({FirestoreService? service})
+C:\vkart\vkart_customer\lib\providers\delivery_location_provider.dart:40: debugPrint('DeliveryLocationProvider.loadDeliveryLocations failed: $e');
+C:\vkart\vkart_customer\lib\providers\delivery_location_provider.dart:47: void selectDeliveryLocation(DeliveryLocation location) {
+C:\vkart\vkart_customer\lib\providers\delivery_location_provider.dart:53: void selectByIdAndName(String id, String name) {
+C:\vkart\vkart_customer\lib\screens\cart\checkout_screen.dart:63: final locProvider = context.read<DeliveryLocationProvider>();
+C:\vkart\vkart_customer\lib\screens\cart\checkout_screen.dart:254: child: Consumer<DeliveryLocationProvider>(
+C:\vkart\vkart_customer\lib\screens\cart\checkout_screen.dart:344: final loc = context.read<DeliveryLocationProvider>();
+C:\vkart\vkart_customer\lib\widgets\home_header.dart:83: /// through [DeliveryLocationProvider].
+C:\vkart\vkart_customer\lib\widgets\home_header.dart:89: final provider = context.watch<DeliveryLocationProvider>();
+C:\vkart\vkart_customer\lib\widgets\home_header.dart:228: DeliveryLocationProvider provider,
+C:\vkart\vkart_customer\lib\widgets\home_header.dart:244: void _showLocationDialog(BuildContext context, DeliveryLocationProvider provider) {
+C:\vkart\vkart_customer\lib\widgets\home_header.dart:360: provider.selectDeliveryLocation(loc);

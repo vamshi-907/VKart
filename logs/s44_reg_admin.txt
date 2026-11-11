@@ -1,0 +1,27 @@
+﻿Create your ANDROID app in project [1mvkart-1[22m:
+node.exe : - Creating your Android app
+At C:\Users\vamsi\AppData\Roaming\npm\firebase.ps1:24 char:5
++     & "node$exe"  "$basedir/node_modules/firebase-tools/lib/bin/fireb ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (- Creating your Android app:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Γ£ö Creating your Android app
+
+≡ƒÄë≡ƒÄë≡ƒÄë Your Firebase ANDROID App is ready! ≡ƒÄë≡ƒÄë≡ƒÄë
+
+App information:
+  - App ID: 1:773093189958:android:309fee3dc65d09c3fb9d47
+  - Display name: VKart Admin
+  - Package name: com.vkart.admin
+
+You can run this command to print out your new app's Google Services config:
+  firebase apps:sdkconfig ANDROID 1:773093189958:android:309fee3dc65d09c3fb9d47
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé             firebase-tools update check failed             Γöé
+Γöé            Try running with sudo or get access             Γöé
+Γöé            to the local update config store via            Γöé
+Γöé sudo chown -R $USER:$(id -gn $USER) C:\Users\vamsi\.config Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓ
+öÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ

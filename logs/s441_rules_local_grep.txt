@@ -1,0 +1,57 @@
+﻿
+vkart_customer\firestore.rules:14:    // session email/uid), not by these rules. The isSignedIn()/uid-equality
+vkart_customer\firestore.rules:23:    function isSignedIn() {
+vkart_customer\firestore.rules:26:    function isStaffCaller() {
+vkart_customer\firestore.rules:29:    function isOwnerUid(docId) {
+vkart_customer\firestore.rules:30:      return isSignedIn() && request.auth.uid == docId;
+vkart_customer\firestore.rules:66:    // PRODUCTS - Public Read, Staff Write (Admin app)
+vkart_customer\firestore.rules:68:    // All users (authenticated and guest) can read products.
+vkart_customer\firestore.rules:73:    // isStaffCaller() and can never write products.
+vkart_customer\firestore.rules:74:    match /products/{productId} {
+vkart_customer\firestore.rules:75:      allow read: if true;
+vkart_customer\firestore.rules:76:      allow create, update, delete: if isStaffCaller();
+vkart_customer\firestore.rules:87:      allow read: if isOwnerUid(userId) || isStaffCaller();
+vkart_customer\firestore.rules:91:      allow create, update: if isOwnerUid(userId)
+vkart_customer\firestore.rules:92:                            || (isStaffCaller() && validAdminUserUpdate())
+vkart_customer\firestore.rules:93:                            || (isStaffCaller()
+vkart_customer\firestore.rules:95:      allow delete: if isOwnerUid(userId);
+vkart_customer\firestore.rules:99:        allow read: if request.auth != null && request.auth.uid == userId;
+vkart_customer\firestore.rules:100:        allow write: if false; // Only server can write
+vkart_customer\firestore.rules:108:      allow read, write: if request.auth != null &&
+vkart_customer\firestore.rules:122:      allow read, write: if isStaffCaller()
+vkart_customer\firestore.rules:123:                      || (isSignedIn() && request.auth.uid == userId);
+vkart_customer\firestore.rules:131:      allow read, write: if isStaffCaller()
+vkart_customer\firestore.rules:132:                      || (isSignedIn() && request.auth.uid == userId);
+vkart_customer\firestore.rules:140:      allow read: if (isSignedIn() && resource.data.userId == request.auth.uid)
+vkart_customer\firestore.rules:141:                  || isStaffCaller();
+vkart_customer\firestore.rules:142:      allow create: if (isSignedIn() && request.resource.data.userId == request.auth.uid)
+vkart_customer\firestore.rules:143:                 || (isStaffCaller() && nonEmptyString(request.resource.data.userId));
+vkart_customer\firestore.rules:144:      allow update: if isStaffCaller() && validOrderUpdate();
+vkart_customer\firestore.rules:149:        allow read: if (isSignedIn() &&
+vkart_customer\firestore.rules:151:                    || isStaffCaller();
+vkart_customer\firestore.rules:152:        allow create: if isSignedIn() &&
+vkart_customer\firestore.rules:161:      allow read: if isStaffCaller() ||
+vkart_customer\firestore.rules:162:                  (isSignedIn() && resource.data.userId == request.auth.uid);
+vkart_customer\firestore.rules:163:      allow create: if isSignedIn() &&
+vkart_customer\firestore.rules:176:      allow read, write: if isOwnerUid(userId) || isStaffCaller();
+vkart_customer\firestore.rules:183:      allow read: if true;
+vkart_customer\firestore.rules:184:      allow write: if isStaffCaller();
+vkart_customer\firestore.rules:191:      allow read: if true;
+vkart_customer\firestore.rules:192:      allow write: if isStaffCaller();
+vkart_customer\firestore.rules:195:      allow read: if true;
+vkart_customer\firestore.rules:196:      allow write: if isStaffCaller();
+vkart_customer\firestore.rules:199:      allow read: if true;
+vkart_customer\firestore.rules:200:      allow write: if isStaffCaller();
+vkart_customer\firestore.rules:207:      allow read: if true;
+vkart_customer\firestore.rules:208:      allow write: if isStaffCaller();
+vkart_customer\firestore.rules:215:      allow read, write: if isStaffCaller();
+vkart_customer\firestore.rules:222:      allow read, write: if isStaffCaller();
+vkart_customer\firestore.rules:234:      allow read: if isStaffCaller();
+vkart_customer\firestore.rules:235:      allow create, update: if isStaffCaller();
+vkart_customer\firestore.rules:245:      allow read: if isStaffCaller();
+vkart_customer\firestore.rules:246:      allow write: if false;
+vkart_customer\firestore.rules:254:      allow read: if true;
+vkart_customer\firestore.rules:255:      allow write: if isStaffCaller() || isOwnerUid(docId);
+vkart_customer\firestore.rules:262:      allow read, write: if false;
+
+

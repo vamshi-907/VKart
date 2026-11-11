@@ -1,0 +1,12 @@
+﻿.gradle
+.kotlin
+app
+gradle
+.gitignore
+build.gradle.kts
+gradle.properties
+gradlew
+gradlew.bat
+local.properties
+settings.gradle.kts
+vkart_delivery_partner_android.iml

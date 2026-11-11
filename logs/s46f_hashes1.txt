@@ -1,0 +1,16 @@
+SHA256 hash of C:\vkart\vkart_customer\build\app\outputs\apk\release\app-release.apk:
+e700b576cae1427c67fed6da032695b41454113d0ae2d1da394d92899828b625
+CertUtil: -hashfile command completed successfully.
+---CUSTAPK_END--- 
+SHA256 hash of C:\vkart\vkart_customer\build\app\outputs\bundle\release\app-release.aab:
+8c713c2327834c6f0d9dee389e1f04264495663d19db1f8bca61dfcb8a063474
+CertUtil: -hashfile command completed successfully.
+---CUSTAAB_END--- 
+SHA256 hash of C:\vkart\vkart_admin\build\app\outputs\apk\release\app-release.apk:
+0fec17edb8755a1d4f7d4b1223848bc090877a9336aede0d54e77caf0660933c
+CertUtil: -hashfile command completed successfully.
+---ADMAPK_END--- 
+SHA256 hash of C:\vkart\vkart_admin\build\app\outputs\bundle\release\app-release.aab:
+c3010aada479f55ec1d6d9524913fa3599df1a737c4f7a232b41f2612bcfa331
+CertUtil: -hashfile command completed successfully.
+---ADMAAB_END---

@@ -1,0 +1,50 @@
+﻿=== LAUNCHER ICON SOURCES ===
+--- vkart_customer
+res\drawable-hdpi\ic_launcher_foreground.png | 12155
+res\drawable-mdpi\ic_launcher_foreground.png | 6149
+res\drawable-xhdpi\ic_launcher_foreground.png | 19702
+res\drawable-xxhdpi\ic_launcher_foreground.png | 36564
+res\drawable-xxxhdpi\ic_launcher_foreground.png | 56599
+res\mipmap-anydpi-v26\ic_launcher.xml | 335
+res\mipmap-hdpi\ic_launcher.png | 3103
+res\mipmap-mdpi\ic_launcher.png | 1625
+res\mipmap-xhdpi\ic_launcher.png | 5006
+res\mipmap-xxhdpi\ic_launcher.png | 10064
+res\mipmap-xxxhdpi\ic_launcher.png | 16069
+--- vkart_admin
+res\drawable-hdpi\ic_launcher_foreground.png | 12626
+res\drawable-mdpi\ic_launcher_foreground.png | 6354
+res\drawable-xhdpi\ic_launcher_foreground.png | 20463
+res\drawable-xxhdpi\ic_launcher_foreground.png | 37374
+res\drawable-xxxhdpi\ic_launcher_foreground.png | 57909
+res\mipmap-anydpi-v26\ic_launcher.xml | 335
+res\mipmap-hdpi\ic_launcher.png | 3197
+res\mipmap-mdpi\ic_launcher.png | 1662
+res\mipmap-xhdpi\ic_launcher.png | 5182
+res\mipmap-xxhdpi\ic_launcher.png | 10431
+res\mipmap-xxxhdpi\ic_launcher.png | 16670
+--- vkart_delivery_partner
+res\drawable-hdpi\ic_launcher_foreground.png | 12155
+res\drawable-mdpi\ic_launcher_foreground.png | 6149
+res\drawable-xhdpi\ic_launcher_foreground.png | 19702
+res\drawable-xxhdpi\ic_launcher_foreground.png | 36564
+res\drawable-xxxhdpi\ic_launcher_foreground.png | 56599
+res\mipmap-anydpi-v26\ic_launcher.xml | 335
+res\mipmap-hdpi\ic_launcher.png | 3103
+res\mipmap-mdpi\ic_launcher.png | 1625
+res\mipmap-xhdpi\ic_launcher.png | 5006
+res\mipmap-xxhdpi\ic_launcher.png | 10064
+res\mipmap-xxxhdpi\ic_launcher.png | 16069
+=== MANIFEST ANDROID:ICON ===
+--- vkart_customer
+<uses-permission android:name="android.permission.INTERNET"/>
+android:label="VKart"
+android:icon="@mipmap/ic_launcher">
+--- vkart_admin
+<uses-permission android:name="android.permission.INTERNET"/>
+android:label="VKart Admin"
+android:icon="@mipmap/ic_launcher">
+--- vkart_delivery_partner
+<uses-permission android:name="android.permission.INTERNET"/>
+android:label="VKart Delivery Partner"
+android:icon="@mipmap/ic_launcher">

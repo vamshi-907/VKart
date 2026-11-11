@@ -1,0 +1,127 @@
+{
+  "name": "projects/vkart-1/databases/(default)/documents/products/1",
+  "fields": {
+    "brandId": {
+      "stringValue": ""
+    },
+    "price": {
+      "doubleValue": 138
+    },
+    "subCategoryName": {
+      "stringValue": ""
+    },
+    "nameEnglish": {
+      "stringValue": "Priya Gold Palm Oil  1 litre"
+    },
+    "variants": {
+      "arrayValue": {
+        "values": [
+          {
+            "mapValue": {
+              "fields": {
+                "offerPrice": {
+                  "doubleValue": 135
+                },
+                "stock": {
+                  "integerValue": "999"
+                },
+                "active": {
+                  "booleanValue": true
+                },
+                "weight": {
+                  "stringValue": "1 litre"
+                },
+                "price": {
+                  "doubleValue": 138
+                },
+                "mrp": {
+                  "doubleValue": 185
+                },
+                "sku": {
+                  "stringValue": "0"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stock": {
+      "integerValue": "999"
+    },
+    "gst": {
+      "doubleValue": 0
+    },
+    "nameTelugu": {
+      "stringValue": ""
+    },
+    "createdAt": {
+      "stringValue": "2026-08-07T20:08:30.057363"
+    },
+    "categoryName": {
+      "stringValue": "Cooking Oil's"
+    },
+    "stockStatus": {
+      "stringValue": "InStock"
+    },
+    "weight": {
+      "stringValue": "1 litre"
+    },
+    "name": {
+      "stringValue": "Priya Gold Palm Oil  1 litre"
+    },
+    "descriptionEnglish": {
+      "stringValue": "Palm Oil"
+    },
+    "image": {
+      "stringValue": "https://priyagoldoils.com/img/new/product8.png"
+    },
+    "updatedAt": {
+      "timestampValue": "2026-09-08T09:09:28.853Z"
+    },
+    "subCategoryId": {
+      "stringValue": ""
+    },
+    "active": {
+      "booleanValue": true
+    },
+    "id": {
+      "stringValue": "1"
+    },
+    "displayOrder": {
+      "integerValue": "0"
+    },
+    "category": {
+      "stringValue": "Cooking Oil's"
+    },
+    "mrp": {
+      "doubleValue": 185
+    },
+    "deliveryTime": {
+      "stringValue": "with in 60 mins"
+    },
+    "brand": {
+      "stringValue": "Priya Gold"
+    },
+    "descriptionTelugu": {
+      "stringValue": ""
+    },
+    "images": {
+      "arrayValue": {
+        "values": [
+          {
+            "stringValue": "https://priyagoldoils.com/img/new/product8.png"
+          }
+        ]
+      }
+    },
+    "categoryId": {
+      "stringValue": ""
+    },
+    "brandName": {
+      "stringValue": "Priya Gold"
+    }
+  },
+  "createTime": "2026-07-15T15:21:33.814588Z",
+  "updateTime": "2026-09-08T09:09:28.890746Z"
+}

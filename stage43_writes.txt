@@ -1,0 +1,167 @@
+﻿=== ENUM OrderStatus (shared model) ===
+enum OrderStatus {
+  orderPlaced,
+  orderReceived,
+  delivered,
+  placed,
+  confirmed,
+  packed,
+  assigned,
+  outForDelivery,
+  cancelled,
+  completed
+}
+
+extension OrderStatusLabel on OrderStatus {
+  String get label => switch (this) {
+        OrderStatus.orderPlaced => 'ORDER PLACED',
+        OrderStatus.orderReceived => 'CONFIRMED',
+        OrderStatus.delivered => 'DELIVERED',
+        OrderStatus.placed => 'Placed',
+        OrderStatus.confirmed => 'Confirmed',
+        OrderStatus.packed => 'Packed',
+        OrderStatus.assigned => 'Assigned',
+        OrderStatus.outForDelivery => 'Out for Delivery',
+        OrderStatus.cancelled => 'Cancelled',
+        OrderStatus.completed => 'Completed',
+      };
+
+  /// Firestore string form (stable — do not localize).
+  String get value => name;
+
+  static OrderStatus fromValue(String? value) {
+    final v = (value ?? '').trim();
+    // Map legacy database values to the canonical enum members.
+    switch (v) {
+      case 'placed':
+      case 'orderPlaced':
+        return OrderStatus.orderPlaced;
+      case 'confirmed':
+      case 'orderReceived':
+        return OrderStatus.orderReceived;
+      case 'delivered':
+        return OrderStatus.delivered;
+      case 'packed':
+=== PARTNER GUARD (order_provider 15-75) ===
+      _isLoading = false;
+      notifyListeners();
+    });
+  }
+
+  Stream<List<OrderModel>> getHistoryOrders(String partnerId, List<OrderStatus> statuses) {
+    return _repository.getHistoryOrders(partnerId, statuses);
+  }
+
+  /// Numeric rank of the frozen workflow: ORDER PLACED â†’ CONFIRMED â†’
+  /// DELIVERED. 'confirmed' is the legacy alias of orderReceived.
+  static int _statusRank(String value) {
+    switch (value) {
+      case 'orderPlaced':
+        return 0;
+      case 'orderReceived':
+      case 'confirmed':
+        return 1;
+      case 'delivered':
+        return 2;
+      default:
+        return -1;
+    }
+  }
+
+  /// SECURITY GUARD (Stage 4.2): order status may only move exactly one
+  /// step forward. Reversing a completed status is rejected locally; the
+  /// Firestore rules enforce the same constraint server-side. A same-rank
+  /// update is allowed only when it carries operational delivery data.
+  Future<void> updateOrderStatus(String orderId, OrderStatus status, {String? notes, String? photoUrl, String? reason}) async {
+    OrderModel? current;
+    for (final order in _assignedOrders) {
+      if (order.id == orderId) {
+        current = order;
+        break;
+      }
+    }
+    final newRank = _statusRank(status.value);
+    if (current != null && newRank >= 0) {
+      final currentRank = _statusRank(current.status.value);
+      final carriesOperationalData =
+          notes != null || photoUrl != null || reason != null;
+      final allowed = (newRank == currentRank + 1) ||
+          (newRank == currentRank && carriesOperationalData);
+      if (currentRank >= 0 && !allowed) {
+        throw StateError(
+          'Invalid order status transition for $orderId: '
+          '"${current.status.value}" cannot move to "${status.value}". '
+          'Allowed workflow: ORDER PLACED â†’ CONFIRMED â†’ DELIVERED.',
+        );
+      }
+    }
+    await _repository.updateOrderStatus(orderId, status, notes: notes, photoUrl: photoUrl, reason: reason);
+  }
+}
+=== CUSTOMER WRITE OPS ===
+lib\providers\cart_provider.dart:124: _items.add(CartItem.fromMap(itemMap));
+lib\providers\cart_provider.dart:171: _items.add(guestItem);
+lib\providers\cart_provider.dart:189: _items.add(CartItem(product: product, quantity: quantity));
+lib\providers\product_provider.dart:68: if (seen.add(name.toLowerCase())) result.add(name);
+lib\providers\product_provider.dart:122: related.add(p);
+lib\providers\product_provider.dart:143: sameBrand.add(p);
+lib\providers\product_provider.dart:145: popular.add(p);
+lib\repositories\order_repository.dart:23: result.add(OrderModel.fromMap(map));
+lib\repositories\order_repository.dart:42: result.add(OrderModel.fromMap(map));
+lib\repositories\product_repository.dart:25: if (product != null) result.add(product);
+lib\services\customer_otp_service.dart:63: ..recipients.add(normalized)
+lib\services\firestore_service.dart:92: await _db.collection(_usersCollection).doc(userId).set(data);
+lib\services\firestore_service.dart:115: await _db.collection(_addressesCollection).doc(addressId).set({
+lib\services\firestore_service.dart:122: await _db.collection(_addressesCollection).doc(addressId).update({
+lib\services\firestore_service.dart:129: await _db.collection(_addressesCollection).doc(addressId).delete();
+lib\services\firestore_service.dart:139: batch.update(doc.reference, {'isDefault': false});
+lib\services\firestore_service.dart:141: batch.update(
+lib\services\firestore_service.dart:158: await _db.collection(_cartCollection).doc(userId).set(data);
+lib\services\firestore_service.dart:165: await _db.collection(_ordersCollection).doc(orderId).set({
+lib\services\firestore_service.dart:228: .set(data);
+lib\services\firestore_service.dart:241: await _db.collection(_settingsCollection).doc(userId).set(data);
+lib\services\firestore_service.dart:254: await _db.collection(_wishlistCollection).doc(userId).set(data);
+lib\services\firestore_service.dart:275: await docRef.set(payload, SetOptions(merge: true));
+lib\services\session_upgrade_service.dart:96: existingProductIds.add(productId);
+lib\services\session_upgrade_service.dart:114: mergedItems.add({'productId': productId});
+lib\services\session_upgrade_service.dart:119: mergedItems.add({
+=== ADMIN WRITE OPS ===
+lib\repositories\admin_audit_repository.dart:21: await _db.collection(_collection).add(log.toMap());
+lib\repositories\admin_brand_repository.dart:39: await _db.collection(_collection).add(data);
+lib\repositories\admin_brand_repository.dart:48: await _db.collection(_collection).doc(brand.id).update(data);
+lib\repositories\admin_brand_repository.dart:52: await _db.collection(_collection).doc(brandId).update({'active': false});
+lib\repositories\admin_category_repository.dart:40: await _db.collection(_collection).add(data);
+lib\repositories\admin_category_repository.dart:49: await _db.collection(_collection).doc(category.id).update(data);
+lib\repositories\admin_category_repository.dart:53: await _db.collection(_collection).doc(categoryId).update({'active': false});
+lib\repositories\admin_customer_repository.dart:20: await _db.collection(_collection).doc(uid).update({'active': active});
+lib\repositories\admin_notification_repository.dart:43: await _db.collection(_collection).add(data);
+lib\repositories\admin_notification_repository.dart:55: await _db.collection(_collection).doc(notification.id).update(data);
+lib\repositories\admin_notification_repository.dart:59: await _db.collection(_collection).doc(id).update({'active': false});
+lib\repositories\admin_order_repository.dart:21: await _db.collection(_collection).doc(orderId).update({
+lib\repositories\admin_product_repository.dart:62: await _db.collection(_collection).add(data);
+lib\repositories\admin_product_repository.dart:74: urls.add(await ref.getDownloadURL());
+lib\repositories\admin_product_repository.dart:113: .set(
+lib\repositories\admin_product_repository.dart:121: await _db.collection(_collection).doc(id).delete();
+lib\repositories\admin_settings_repository.dart:83: await _db.collection(_collection).doc(_docId).set(data);
+lib\repositories\admin_sub_category_repository.dart:42: await _db.collection(_collection).add(data);
+lib\repositories\admin_sub_category_repository.dart:54: await _db.collection(_collection).doc(subCategory.id).update(data);
+lib\repositories\admin_sub_category_repository.dart:58: await _db.collection(_collection).doc(subCategoryId).update({
+lib\screens\products\add_product_screen.dart:82: if (cat.isNotEmpty) categorySet.add(cat);
+lib\screens\products\add_product_screen.dart:84: if (brand.isNotEmpty) brandSet.add(brand);
+lib\screens\products\edit_product_screen.dart:119: if (cat.isNotEmpty) categorySet.add(cat);
+lib\screens\products\edit_product_screen.dart:121: if (brand.isNotEmpty) brandSet.add(brand);
+lib\screens\products\edit_product_screen.dart:130: _categories.add(_selectedCategory!);
+lib\screens\products\edit_product_screen.dart:134: _brands.add(_selectedBrand!);
+lib\screens\products\edit_product_screen.dart:373: () => _removedExistingImages.add(url),
+lib\services\admin_auth_service.dart:55: ..recipients.add(normalized)
+=== PARTNER WRITE OPS ===
+lib\services\partner_auth_service.dart:114: await docRef.set({
+lib\services\partner_auth_service.dart:133: await docRef.update(updates);
+lib\services\smtp_otp_service.dart:59: ..recipients.add(normalized)
+lib\src\repositories\order_repository.dart:56: await _firestore.collection('orders').doc(orderId).update({
+=== LIVE DENIED PATHS ===
+W/Firestore(10006): (26.4.0) [Firestore]: Listen for QueryWrapper(query=Query(target=Query(cart/2200070005ece@gmail.com order by __name__);limitType=LIMIT_TO_FI
+I/flutter (10006): CartProvider._loadFromFirestore failed: [cloud_firestore/permission-denied] PERMISSION_DENIED: Missing or insufficient permissions.
+W/Firestore(10006): (26.4.0) [Firestore]: Listen for QueryWrapper(query=Query(target=Query(wishlist/2200070005ece@gmail.com order by __name__);limitType=LIMIT_T
+I/flutter (10006): WishlistProvider._loadFromFirestore failed: [cloud_firestore/permission-denied] PERMISSION_DENIED: Missing or insufficient permissions.
+dart procs: 3

@@ -1,0 +1,1 @@
+Unsupported command: print-certs. See --help for supported commands

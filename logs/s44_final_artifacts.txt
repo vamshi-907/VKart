@@ -1,0 +1,3 @@
+﻿customer | APK=True 71.5MB | AAB=True 71.2MB
+admin | APK=True 52.2MB | AAB=True 52MB
+delivery_partner | APK=True 49.2MB | AAB=True 50.1MB

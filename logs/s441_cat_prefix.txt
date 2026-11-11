@@ -1,0 +1,6 @@
+﻿  Future<String> _uploadImage(File image, String name) async {
+    final ref = _storage.ref().child(
+      'category_icons/${DateTime.now().millisecondsSinceEpoch}_$name',
+    );
+    await ref.putFile(image);
+    return await ref.getDownloadURL();

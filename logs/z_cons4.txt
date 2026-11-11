@@ -1,0 +1,76 @@
+==CUST_MANIFEST_PERMS== 
+3:    <uses-permission android:name="android.permission.INTERNET"/>
+==CUST_MANIFEST_ICON== 
+7:        android:icon="@mipmap/ic_launcher">
+==FB== 
+    "project_id": "vkart-1",
+==FB_CUST_PKG== 
+          "package_name": "com.example.vkart_customer"
+          "package_name": "com.vkart.admin"
+          "package_name": "com.vkart.customer"
+          "package_name": "com.vkart.deliverypartner"
+          "package_name": "com.vkart.vkart_admin"
+            "package_name": "com.vkart.vkart_admin",
+==FB_ADMIN_PKG== 
+          "package_name": "com.example.vkart_customer"
+          "package_name": "com.vkart.admin"
+          "package_name": "com.vkart.customer"
+          "package_name": "com.vkart.deliverypartner"
+          "package_name": "com.vkart.vkart_admin"
+            "package_name": "com.vkart.vkart_admin",
+==FB_PARTNER_PKG== 
+          "package_name": "com.example.vkart_customer"
+          "package_name": "com.vkart.admin"
+          "package_name": "com.vkart.customer"
+          "package_name": "com.vkart.deliverypartner"
+          "package_name": "com.vkart.vkart_admin"
+            "package_name": "com.vkart.vkart_admin",
+==GEO== 
+==GEO2== 
+==DEL1== 
+12:class AccountDeletionException implements Exception {
+13:  const AccountDeletionException(this.failedTargets);
+127:  /// Throws [AccountDeletionException] listing every target that could not
+130:  Future<void> deleteAccountData() async {
+133:      throw const AccountDeletionException(['no active customer session']);
+145:          'AuthService.deleteAccountData: failed to delete $target: $e',
+161:      throw AccountDeletionException(failures);
+==DEL2== 
+313:  Future<void> deleteCart(String userId) async {
+318:  Future<void> deleteWishlist(String userId) async {
+324:  Future<void> deleteDeliveryDetails(String userId) async {
+==DEL3== 
+481:  Future<void> deleteAccount() async {
+488:      await _authService.deleteAccountData();
+505:      debugPrint('AuthProvider.deleteAccount partial failure: $e');
+510:      debugPrint('AuthProvider.deleteAccount failed: $e');
+==DEL4== 
+29:            onDeleteAccount: _handleDeleteAccount,
+70:  Future<void> _handleDeleteAccount(BuildContext context) async {
+74:        title: const Text('Delete Account'),
+94:            child: const Text('Delete Permanently'),
+104:    await auth.deleteAccount();
+209:    required this.onDeleteAccount,
+214:  final Function(BuildContext) onDeleteAccount;
+396:        // ---- Delete Account (danger zone, Stage 4.6E) ----
+412:              onPressed: () => onDeleteAccount(context),
+415:                'Delete Account',
+==AAB== 
+ Volume in drive C is Windows
+ Volume Serial Number is 2AF4-788F
+
+ Directory of C:\vkart\vkart_customer\build\app\outputs\bundle\release
+
+09/17/2026  04:21 PM        74,702,485 app-release.aab
+               1 File(s)     74,702,485 bytes
+
+ Directory of C:\vkart\vkart_admin\build\app\outputs\bundle\release
+
+09/17/2026  04:30 PM        55,531,027 app-release.aab
+               1 File(s)     55,531,027 bytes
+
+ Directory of C:\vkart\vkart_delivery_partner\build\app\outputs\bundle\release
+
+09/17/2026  04:34 PM        52,624,610 app-release.aab
+               1 File(s)     52,624,610 bytes
+               0 Dir(s)  166,144,290,816 bytes free

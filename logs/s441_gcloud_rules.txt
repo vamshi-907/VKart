@@ -1,0 +1,21 @@
+﻿python.exe : ERROR: (gcloud.firestore) Invalid choice: 'rules'.
+At C:\Users\vamsi\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin\gcloud.ps1:114 char:3
++   & "$cloudsdk_python" $run_args_array
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ERROR: (gcloud....hoice: 'rules'.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Maybe you meant:
+  gcloud firestore backups describe
+  gcloud firestore databases describe
+  gcloud firestore operations describe
+  gcloud firestore user-creds describe
+  gcloud firestore backups schedules describe
+  gcloud firestore indexes composite describe
+  gcloud firestore indexes fields describe
+  gcloud firestore bulk-delete
+  gcloud firestore export
+  gcloud firestore import
+
+To search the help text of gcloud commands, run:
+  gcloud help -- SEARCH_TERMS

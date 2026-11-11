@@ -1,0 +1,9 @@
+﻿java : java version "17.0.8" 2023-07-18 LTS
+At line:1 char:1
++ java -version 2>&1 | Out-File 'c:\vkart\logs\s43_java_ver.txt' -Encod ...
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (java version "17.0.8" 2023-07-18 LTS:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Java(TM) SE Runtime Environment (build 17.0.8+9-LTS-211)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.8+9-LTS-211, mixed mode, sharing)

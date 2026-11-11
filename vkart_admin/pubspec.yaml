@@ -1,0 +1,44 @@
+name: vkart_admin
+description: "VKart Admin application."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.12.2'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^4.12.0
+  firebase_auth: ^6.5.6
+  cloud_firestore: ^6.7.1
+  firebase_storage: 13.4.5
+  provider: ^6.1.5+1
+  fl_chart: ^0.68.0
+  pdf: ^3.10.8
+  csv: ^6.0.0
+  intl: ^0.19.0
+  shared_preferences: ^2.3.2
+  http: ^1.2.2
+  vkart_shared:
+    path: ../vkart_shared
+  google_fonts: ^8.2.1
+  mailer: ^6.4.0
+  crypto: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  # Ensures the MaterialIcons font is bundled with the app so that all
+  # `Icon(Icons.xxx)` widgets render correctly (instead of as □ placeholders).
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  image_path: "C:/vkart/assets/Vkart_Logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "C:/vkart/assets/Vkart_Logo.png"

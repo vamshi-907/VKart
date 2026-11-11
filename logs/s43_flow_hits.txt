@@ -1,0 +1,20 @@
+﻿C:\vkart\vkart_customer\lib\providers\auth_provider.dart:70: final session = await _authService.restoreSession();
+C:\vkart\vkart_customer\lib\providers\order_provider.dart:84: Future<OrderModel?> placeOrder({
+C:\vkart\vkart_customer\lib\providers\order_provider.dart:138: await _repository.placeOrder(order);
+C:\vkart\vkart_customer\lib\providers\order_provider.dart:146: debugPrint('OrderProvider.placeOrder failed: $e\n$stackTrace');
+C:\vkart\vkart_customer\lib\providers\order_provider.dart:183: _streamSubscription = _repository.streamOrders(userId).listen(
+C:\vkart\vkart_customer\lib\repositories\order_repository.dart:14: Future<void> placeOrder(OrderModel order) {
+C:\vkart\vkart_customer\lib\repositories\order_repository.dart:18: Stream<List<OrderModel>> streamOrders(String userId) {
+C:\vkart\vkart_customer\lib\repositories\order_repository.dart:19: return _service.streamOrdersForUser(userId).map((maps) {
+C:\vkart\vkart_customer\lib\repositories\order_repository.dart:25: debugPrint('OrderRepository.streamOrders: failed to map document');
+C:\vkart\vkart_customer\lib\screens\cart\checkout_screen.dart:59: Future<void> _placeOrder() async {
+C:\vkart\vkart_customer\lib\screens\cart\checkout_screen.dart:125: final order = await orders.placeOrder(
+C:\vkart\vkart_customer\lib\screens\cart\checkout_screen.dart:505: onPressed: placing ? null : _placeOrder,
+C:\vkart\vkart_customer\lib\services\auth_service.dart:93: Future<Map<String, String?>> restoreSession() async {
+C:\vkart\vkart_customer\lib\services\firestore_service.dart:184: Stream<List<Map<String, dynamic>>> streamOrdersForUser(String userId) {
+C:\vkart\vkart_admin\lib\auth\admin_auth_provider.dart:61: final admin = await _authService.restoreSession();
+C:\vkart\vkart_admin\lib\auth\admin_auth_provider.dart:148: final admin = await _authService.restoreSession();
+C:\vkart\vkart_admin\lib\services\admin_auth_service.dart:131: Future<AdminModel?> restoreSession() async {
+C:\vkart\vkart_delivery_partner\lib\providers\partner_auth_provider.dart:45: final session = await _authService.restoreSession();
+C:\vkart\vkart_delivery_partner\lib\providers\partner_auth_provider.dart:224: final session = await _authService.restoreSession();
+C:\vkart\vkart_delivery_partner\lib\services\partner_auth_service.dart:166: Future<Map<String, String>?> restoreSession() async {

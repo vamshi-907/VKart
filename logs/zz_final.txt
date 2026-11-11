@@ -1,0 +1,9 @@
+﻿=== REPORT FILE ===
+REPORT_MISSING
+=== STRAY SCRIPTS IN REPO ROOT ===
+NONE
+=== ARTIFACTS DIR ===
+no C:\vkart\artifacts dir
+=== BACKUP DIR ===
+C:\vkart\artifacts_4_6c_backup\partner_app-release.aab | 52624610
+C:\vkart\artifacts_4_6c_backup\partner_app-release.apk | 51694758

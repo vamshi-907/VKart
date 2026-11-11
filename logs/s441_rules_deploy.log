@@ -1,0 +1,8 @@
+
+[1m[37m===[39m Deploying to 'vkart-1'...[22m
+
+[36m[1mi [22m[39m deploying [1mstorage, firestore[22m
+[36m[1mi  storage:[22m[39m ensuring required API [1mfirebasestorage.googleapis.com[22m is enabled...
+
+[1m[31mError:[39m[22m Firebase Storage has not been set up on project '[1mvkart-1[22m'. Go to https://console.firebase.google.com/project/vkart-1/storage and click 'Get Started' to set up Firebase Storage.
+DEPLOY_EXIT:0  

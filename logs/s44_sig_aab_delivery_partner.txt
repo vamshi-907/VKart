@@ -1,0 +1,14 @@
+﻿apksigner.bat : Exception in thread "main" com.android.apksig.apk.ApkFormatException: Missing AndroidManifest.xml
+At line:1 char:335
++ ... app-release.aab"; & $apksigner verify --print-certs $aab 2>&1 | Out-F ...
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Exception in th...oidManifest.xml:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+	at com.android.apksig.ApkSigner.getAndroidManifestFromApk(ApkSigner.java:982)
+	at com.android.apksig.ApkVerifier.getAndroidManifestFromApk(ApkVerifier.java:1288)
+	at com.android.apksig.ApkVerifier.verifyAndGetMinSdkVersion(ApkVerifier.java:699)
+	at com.android.apksig.ApkVerifier.verify(ApkVerifier.java:198)
+	at com.android.apksig.ApkVerifier.verify(ApkVerifier.java:166)
+	at com.android.apksigner.ApkSignerTool.verify(ApkSignerTool.java:678)
+	at com.android.apksigner.ApkSignerTool.main(ApkSignerTool.java:97)

@@ -1,0 +1,5 @@
+﻿C:\vkart\vkart_customer\lib\firebase_options.dart:49: storageBucket: 'vkart-1.firebasestorage.app',
+C:\vkart\vkart_customer\lib\firebase_options.dart:58: storageBucket: 'vkart-1.firebasestorage.app',
+C:\vkart\vkart_customer\lib\firebase_options.dart:66: storageBucket: 'vkart-1.firebasestorage.app',
+C:\vkart\vkart_customer\lib\firebase_options.dart:75: storageBucket: 'vkart-1.firebasestorage.app',
+C:\vkart\vkart_customer\lib\firebase_options.dart:85: storageBucket: 'vkart-1.firebasestorage.app',

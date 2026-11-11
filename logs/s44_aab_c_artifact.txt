@@ -1,0 +1,6 @@
+﻿
+FullName                                                                   Length LastWriteTime      
+--------                                                                   ------ -------------      
+C:\vkart\vkart_customer\build\app\outputs\bundle\release\app-release.aab 74667050 9/6/2026 3:37:33 PM
+
+

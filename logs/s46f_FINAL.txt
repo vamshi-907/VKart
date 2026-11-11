@@ -1,0 +1,53 @@
+===TIMES=== 
+ Volume in drive C is Windows
+ Volume Serial Number is 2AF4-788F
+
+ Directory of C:\vkart\vkart_customer\build\app\outputs\apk\release
+
+09/17/2026  04:17 PM        75,046,668 app-release.apk
+               1 File(s)     75,046,668 bytes
+
+ Directory of C:\vkart\vkart_customer\build\app\outputs\bundle\release
+
+09/17/2026  04:21 PM        74,702,485 app-release.aab
+               1 File(s)     74,702,485 bytes
+
+ Directory of C:\vkart\vkart_admin\build\app\outputs\apk\release
+
+09/17/2026  04:28 PM        55,072,773 app-release.apk
+               1 File(s)     55,072,773 bytes
+
+ Directory of C:\vkart\vkart_admin\build\app\outputs\bundle\release
+
+09/17/2026  04:30 PM        55,531,027 app-release.aab
+               1 File(s)     55,531,027 bytes
+
+ Directory of C:\vkart\vkart_delivery_partner\build\app\outputs\apk\release
+
+09/17/2026  04:33 PM        51,694,758 app-release.apk
+               1 File(s)     51,694,758 bytes
+
+ Directory of C:\vkart\vkart_delivery_partner\build\app\outputs\bundle\release
+
+09/17/2026  04:34 PM        52,624,610 app-release.aab
+               1 File(s)     52,624,610 bytes
+               0 Dir(s)  166,354,460,672 bytes free
+===HASHES=== 
+SHA256 hash of C:\vkart\vkart_customer\build\app\outputs\apk\release\app-release.apk:
+e700b576cae1427c67fed6da032695b41454113d0ae2d1da394d92899828b625
+CertUtil: -hashfile command completed successfully.
+SHA256 hash of C:\vkart\vkart_customer\build\app\outputs\bundle\release\app-release.aab:
+8c713c2327834c6f0d9dee389e1f04264495663d19db1f8bca61dfcb8a063474
+CertUtil: -hashfile command completed successfully.
+SHA256 hash of C:\vkart\vkart_admin\build\app\outputs\apk\release\app-release.apk:
+0fec17edb8755a1d4f7d4b1223848bc090877a9336aede0d54e77caf0660933c
+CertUtil: -hashfile command completed successfully.
+SHA256 hash of C:\vkart\vkart_admin\build\app\outputs\bundle\release\app-release.aab:
+c3010aada479f55ec1d6d9524913fa3599df1a737c4f7a232b41f2612bcfa331
+CertUtil: -hashfile command completed successfully.
+SHA256 hash of C:\vkart\vkart_delivery_partner\build\app\outputs\apk\release\app-release.apk:
+257ddb2f6246d77055f84e1207f5a43b0ef701f77958b6a282cdd15a1ac5e854
+CertUtil: -hashfile command completed successfully.
+SHA256 hash of C:\vkart\vkart_delivery_partner\build\app\outputs\bundle\release\app-release.aab:
+ed6c782945738fb804436ed1f51936919fce2118421a88601bf59571a4139fda
+CertUtil: -hashfile command completed successfully.

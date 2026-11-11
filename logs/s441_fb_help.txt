@@ -1,0 +1,3 @@
+﻿Usage: firebase [options]
+
+Options:

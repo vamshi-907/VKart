@@ -1,0 +1,28 @@
+﻿=== CUSTOMER ANDROID PERMISSIONS (manifest) ===
+<uses-permission android:name="android.permission.INTERNET"/>
+=== GREP SOURCE FOR LOCATION PERMISSION APIS ===
+C:\vkart\vkart_customer\lib\main.dart:16: import 'providers/delivery_location_provider.dart';
+C:\vkart\vkart_customer\lib\main.dart:62: create: (_) => DeliveryLocationProvider(),
+C:\vkart\vkart_customer\lib\config\delivery_config.dart:5: /// Firestore `delivery_locations` collection (Phase 3.1), so this file holds
+C:\vkart\vkart_customer\lib\models\delivery_location_model.dart:3: class DeliveryLocation {
+C:\vkart\vkart_customer\lib\models\delivery_location_model.dart:11: DeliveryLocation({
+C:\vkart\vkart_customer\lib\models\delivery_location_model.dart:20: factory DeliveryLocation.fromFirestore(DocumentSnapshot doc) {
+C:\vkart\vkart_customer\lib\models\delivery_location_model.dart:22: return DeliveryLocation.fromMap(data, doc.id);
+C:\vkart\vkart_customer\lib\models\delivery_location_model.dart:25: factory DeliveryLocation.fromMap(Map<String, dynamic> map, String docId) {
+C:\vkart\vkart_customer\lib\models\delivery_location_model.dart:26: return DeliveryLocation(
+C:\vkart\vkart_customer\lib\providers\address_provider.dart:13: final String deliveryLocation;
+C:\vkart\vkart_customer\lib\providers\address_provider.dart:25: required this.deliveryLocation,
+C:\vkart\vkart_customer\lib\providers\address_provider.dart:39: deliveryLocation: (map['deliveryLocation'] ?? '').toString(),
+C:\vkart\vkart_customer\lib\providers\address_provider.dart:51: 'deliveryLocation': deliveryLocation,
+C:\vkart\vkart_customer\lib\providers\address_provider.dart:61: village: deliveryLocation,
+C:\vkart\vkart_customer\lib\providers\address_provider.dart:69: if (deliveryLocation.trim().isNotEmpty) deliveryLocation.trim(),
+C:\vkart\vkart_customer\lib\providers\address_provider.dart:137: deliveryLocation: address.deliveryLocation,
+C:\vkart\vkart_customer\lib\providers\address_provider.dart:153: Future<void> updateAddress(String docId, {String? name, String? email, String? phoneNumber, String? deliveryLocation, String? address}) async {
+C:\vkart\vkart_customer\lib\providers\address_provider.dart:169: deliveryLocation: deliveryLocation ?? existing.deliveryLocation,
+C:\vkart\vkart_customer\lib\providers\auth_provider.dart:243: String location = '';
+C:\vkart\vkart_customer\lib\providers\auth_provider.dart:266: location =
+C:\vkart\vkart_customer\lib\providers\auth_provider.dart:267: (existingDoc['location'] ?? '').toString();
+C:\vkart\vkart_customer\lib\providers\auth_provider.dart:280: debugPrint('[AUTH] Existing location restored');
+C:\vkart\vkart_customer\lib\providers\auth_provider.dart:295: 'location': location,
+C:\vkart\vkart_customer\lib\providers\delivery_location_provider.dart:3: import '../models/delivery_location_model.dart';
+C:\vkart\vkart_customer\lib\providers\delivery_location_provider.dart:6: class DeliveryLocationProvider extends ChangeNotifier {

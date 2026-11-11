@@ -1,0 +1,6 @@
+SHA256 hash of C:\vkart\vkart_delivery_partner\build\app\outputs\apk\release\app-release.apk:
+257ddb2f6246d77055f84e1207f5a43b0ef701f77958b6a282cdd15a1ac5e854
+CertUtil: -hashfile command completed successfully.
+SHA256 hash of C:\vkart\vkart_delivery_partner\build\app\outputs\bundle\release\app-release.aab:
+ed6c782945738fb804436ed1f51936919fce2118421a88601bf59571a4139fda
+CertUtil: -hashfile command completed successfully.

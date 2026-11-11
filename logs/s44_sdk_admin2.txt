@@ -1,0 +1,9 @@
+﻿node.exe : - Downloading configuration data of your Firebase ANDROID app
+At C:\Users\vamsi\AppData\Roaming\npm\firebase.ps1:24 char:5
++     & "node$exe"  "$basedir/node_modules/firebase-tools/lib/bin/fireb ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (- Downloading c...ase ANDROID app:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Γ£ö Downloading configuration data of your Firebase ANDROID app
+App configuration is written in c:\vkart\vkart_admin\android\app\google-services.json

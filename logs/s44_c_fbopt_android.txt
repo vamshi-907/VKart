@@ -1,0 +1,8 @@
+﻿  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyA5H6xfdQEsk2yHXfYLY2Mz3aJf6D_Z4rA',
+    appId: '1:773093189958:android:754a5c11cb56815afb9d47',
+    messagingSenderId: '773093189958',
+    projectId: 'vkart-1',
+    storageBucket: 'vkart-1.firebasestorage.app',
+  );
+

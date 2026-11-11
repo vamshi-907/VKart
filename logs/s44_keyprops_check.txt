@@ -1,0 +1,3 @@
+﻿c:\vkart\vkart_customer\android\key.properties exists=True lines=5 keys=storePassword,keyPassword,keyAlias,storeFile,
+c:\vkart\vkart_admin\android\key.properties exists=True lines=5 keys=storePassword,keyPassword,keyAlias,storeFile,
+c:\vkart\vkart_delivery_partner\android\key.properties exists=True lines=5 keys=storePassword,keyPassword,keyAlias,storeFile,

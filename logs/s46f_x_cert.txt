@@ -1,0 +1,14 @@
+V2 Signer: certificate DN: CN=VKart, OU=VKart, O=VKart, L=Hyderabad, ST=Telangana, C=IN
+V2 Signer: certificate SHA-256 digest: 9a316ab1c08db6392c7698989d553e960e66d51a5fccdab5a59d4a560166ecb7
+V2 Signer: certificate SHA-1 digest: ff457a32a8d20dab30bb5b295e3525f28a54fc4f
+V2 Signer: certificate MD5 digest: 619d2b6a6e74b72a93956bdaf8a38874
+=====ADMIN===== 
+V2 Signer: certificate DN: CN=VKart, OU=VKart, O=VKart, L=Hyderabad, ST=Telangana, C=IN
+V2 Signer: certificate SHA-256 digest: 9a316ab1c08db6392c7698989d553e960e66d51a5fccdab5a59d4a560166ecb7
+V2 Signer: certificate SHA-1 digest: ff457a32a8d20dab30bb5b295e3525f28a54fc4f
+V2 Signer: certificate MD5 digest: 619d2b6a6e74b72a93956bdaf8a38874
+=====PARTNER===== 
+V2 Signer: certificate DN: CN=VKart, OU=VKart, O=VKart, L=Hyderabad, ST=Telangana, C=IN
+V2 Signer: certificate SHA-256 digest: 9a316ab1c08db6392c7698989d553e960e66d51a5fccdab5a59d4a560166ecb7
+V2 Signer: certificate SHA-1 digest: ff457a32a8d20dab30bb5b295e3525f28a54fc4f
+V2 Signer: certificate MD5 digest: 619d2b6a6e74b72a93956bdaf8a38874

@@ -1,0 +1,29 @@
+C:\vkart\vkart_customer\lib\services\auth_service.dart:12:class AccountDeletionException implements Exception {
+C:\vkart\vkart_customer\lib\services\auth_service.dart:13:  const AccountDeletionException(this.failedTargets);
+C:\vkart\vkart_customer\lib\services\auth_service.dart:127:  /// Throws [AccountDeletionException] listing every target that could not
+C:\vkart\vkart_customer\lib\services\auth_service.dart:130:  Future<void> deleteAccountData() async {
+C:\vkart\vkart_customer\lib\services\auth_service.dart:133:      throw const AccountDeletionException(['no active customer session']);
+C:\vkart\vkart_customer\lib\services\auth_service.dart:145:          'AuthService.deleteAccountData: failed to delete $target: $e',
+C:\vkart\vkart_customer\lib\services\auth_service.dart:151:    await tryDelete('cart', () => _firestore.deleteCart(userId));
+C:\vkart\vkart_customer\lib\services\auth_service.dart:152:    await tryDelete('wishlist', () => _firestore.deleteWishlist(userId));
+C:\vkart\vkart_customer\lib\services\auth_service.dart:155:      () => _firestore.deleteDeliveryDetails(userId),
+C:\vkart\vkart_customer\lib\services\auth_service.dart:161:      throw AccountDeletionException(failures);
+C:\vkart\vkart_customer\lib\services\firestore_service.dart:313:  Future<void> deleteCart(String userId) async {
+C:\vkart\vkart_customer\lib\services\firestore_service.dart:318:  Future<void> deleteWishlist(String userId) async {
+C:\vkart\vkart_customer\lib\services\firestore_service.dart:324:  Future<void> deleteDeliveryDetails(String userId) async {
+C:\vkart\vkart_customer\lib\providers\auth_provider.dart:481:  Future<void> deleteAccount() async {
+C:\vkart\vkart_customer\lib\providers\auth_provider.dart:488:      await _authService.deleteAccountData();
+C:\vkart\vkart_customer\lib\providers\auth_provider.dart:499:    } on AccountDeletionException catch (e) {
+C:\vkart\vkart_customer\lib\providers\auth_provider.dart:505:      debugPrint('AuthProvider.deleteAccount partial failure: $e');
+C:\vkart\vkart_customer\lib\providers\auth_provider.dart:510:      debugPrint('AuthProvider.deleteAccount failed: $e');
+====PROFILE_UI==== 
+29:            onDeleteAccount: _handleDeleteAccount,
+70:  Future<void> _handleDeleteAccount(BuildContext context) async {
+74:        title: const Text('Delete Account'),
+94:            child: const Text('Delete Permanently'),
+104:    await auth.deleteAccount();
+209:    required this.onDeleteAccount,
+214:  final Function(BuildContext) onDeleteAccount;
+396:        // ---- Delete Account (danger zone, Stage 4.6E) ----
+412:              onPressed: () => onDeleteAccount(context),
+415:                'Delete Account',

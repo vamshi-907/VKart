@@ -1,0 +1,1 @@
+﻿C:\Users\vamsi\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin\gcloud.ps1

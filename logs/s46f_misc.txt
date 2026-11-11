@@ -1,0 +1,33 @@
+INFO: Could not find files for the given pattern(s).
+INFO: Could not find files for the given pattern(s).
+---S64E_FILES--- 
+ Volume in drive C is Windows
+ Volume Serial Number is 2AF4-788F
+
+ Directory of C:\vkart
+
+09/17/2026  03:46 PM            18,477 stage46e_pre_play_compliance_report.md
+               1 File(s)         18,477 bytes
+               0 Dir(s)  166,975,066,112 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 2AF4-788F
+
+ Directory of C:\vkart
+
+09/17/2026  02:44 PM            16,866 stage46d_privacy_audit_report.md
+               1 File(s)         16,866 bytes
+               0 Dir(s)  166,975,062,016 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 2AF4-788F
+
+ Directory of C:\vkart
+
+09/17/2026  02:41 PM             5,895 privacy_policy_draft.md
+               1 File(s)          5,895 bytes
+               0 Dir(s)  166,975,062,016 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 2AF4-788F
+
+ Directory of C:\vkart
+
+File Not Found

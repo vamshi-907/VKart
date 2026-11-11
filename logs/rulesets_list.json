@@ -1,0 +1,95 @@
+﻿{
+  "rulesets": [
+    {
+      "name": "projects/vkart-1/rulesets/1cb96a66-c351-47ef-91f9-e3b71b5c3112",
+      "createTime": "2026-09-09T17:14:46.880383Z",
+      "metadata": {
+        "services": [
+          "cloud.firestore"
+        ]
+      }
+    },
+    {
+      "name": "projects/vkart-1/rulesets/1e96e688-40e9-4e6c-8fd3-b11cfc3354c9",
+      "createTime": "2026-09-07T09:22:07.087615Z",
+      "metadata": {
+        "services": [
+          "cloud.firestore"
+        ]
+      }
+    },
+    {
+      "name": "projects/vkart-1/rulesets/1615a303-8707-43fe-92c2-e07dd9b3c377",
+      "createTime": "2026-09-07T09:22:05.884143Z",
+      "metadata": {
+        "services": [
+          "cloud.firestore"
+        ]
+      }
+    },
+    {
+      "name": "projects/vkart-1/rulesets/c9f16832-5dca-4949-81ac-878987aa7cf0",
+      "createTime": "2026-09-07T09:22:03.552943Z",
+      "metadata": {
+        "services": [
+          "cloud.firestore"
+        ]
+      }
+    },
+    {
+      "name": "projects/vkart-1/rulesets/d101ff82-8dee-4aff-8654-06f275ebcc9b",
+      "createTime": "2026-09-06T13:36:17.864207Z",
+      "metadata": {
+        "services": [
+          "cloud.firestore"
+        ]
+      }
+    },
+    {
+      "name": "projects/vkart-1/rulesets/d31e24a2-4d25-42f0-93ac-a1c7e37029e5",
+      "createTime": "2026-09-06T13:27:14.921295Z",
+      "metadata": {
+        "services": [
+          "cloud.firestore"
+        ]
+      }
+    },
+    {
+      "name": "projects/vkart-1/rulesets/40a32676-3486-4f84-975a-bb782f42ff60",
+      "createTime": "2026-09-05T13:39:58.892991Z",
+      "metadata": {
+        "services": [
+          "cloud.firestore"
+        ]
+      }
+    },
+    {
+      "name": "projects/vkart-1/rulesets/f52b02c8-4620-4e74-bf36-2316c4524c28",
+      "createTime": "2026-09-01T10:41:33.516015Z",
+      "metadata": {
+        "services": [
+          "cloud.firestore"
+        ]
+      }
+    },
+    {
+      "name": "projects/vkart-1/rulesets/ef85e765-f0f2-46e0-8dc1-b9e7e568a896",
+      "createTime": "2026-09-01T10:05:17.002559Z",
+      "metadata": {
+        "services": [
+          "cloud.firestore"
+        ]
+      }
+    },
+    {
+      "name": "projects/vkart-1/rulesets/fe756c70-5299-4124-8547-0690c63cb218",
+      "createTime": "2026-07-16T13:34:25.262559Z",
+      "metadata": {
+        "services": [
+          "cloud.firestore"
+        ]
+      }
+    }
+  ],
+  "nextPageToken": "APWPiFEOdAh0yRMFlOpitv2AtdoCmWFr7zYt4CD8rAr4w1eoUL_MQGKJwFWAIolsAbLt9kYZjCZLguoKbVwWhxFF90o_i04PL5j3b7OLA-oBMzKimO7C-FTVG8BxFdQc3Bs2pwU2X2XIqjQ7C7rp7Aq_9hDB64X3YhUqdb_TEAzLVas1nX_bimPoBQMALO-RCBqceiFtJXcmVhT9n0IBf-HSeYLwgcA7dQhDUzEaP0V5Zv5vWngGCuY="
+}

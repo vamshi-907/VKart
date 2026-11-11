@@ -1,0 +1,1 @@
+﻿Running Gradle task 'bundleRelease'...                             20.4s

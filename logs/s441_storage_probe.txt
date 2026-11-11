@@ -1,0 +1,12 @@
+﻿--- UPLOAD (unauthenticated, content-type image/png) ---
+UPLOAD: FAILED 404 The remote server returned an error: (404) Not Found.
+{
+  "error": {
+    "code": 404,
+    "message": "Not Found."
+  }
+}
+--- GET METADATA (unauthenticated) ---
+GET: FAILED 404 The remote server returned an error: (404) Not Found.
+--- DELETE (unauthenticated) ---
+DELETE: FAILED 404 The remote server returned an error: (404) Not Found.

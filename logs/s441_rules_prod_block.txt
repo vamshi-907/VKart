@@ -1,0 +1,16 @@
+﻿  65:     // ==================================================================
+  66:     // PRODUCTS - Public Read, Staff Write (Admin app)
+  67:     // ==================================================================
+  68:         // All users (authenticated and guest) can read products.
+  69:     // Product create/update/delete is performed by the Admin app. The Admin
+  70:     // app authenticates with Firebase Auth (email/password), so it is an
+  71:     // authenticated caller; the isStaffCaller() branch is retained for the
+  72:     // frozen unauthenticated legacy path. Customers do not authenticate and
+  73:     // therefore cannot satisfy either branch to write products.
+  74:     match /products/{productId} {
+  75:       allow read: if true;
+  76:       allow create, update, delete: if isSignedIn() || isStaffCaller();
+  77:     }
+  78: 
+  79:     // ==================================================================
+  80:     // USERS - Owner Access (Firebase Auth path) / Staff Caller (frozen

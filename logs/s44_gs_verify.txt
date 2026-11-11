@@ -1,0 +1,8 @@
+﻿
+FullName                                                         Length LastWriteTime        
+--------                                                         ------ -------------        
+C:\vkart\vkart_customer\android\app\google-services.json            670 7/13/2026 10:44:09 PM
+C:\vkart\vkart_admin\android\app\google-services.json              2627 7/31/2026 8:18:56 PM 
+C:\vkart\vkart_delivery_partner\android\app\google-services.json   5787 9/5/2026 8:11:01 PM  
+
+

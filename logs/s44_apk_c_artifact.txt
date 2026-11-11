@@ -1,0 +1,7 @@
+﻿
+FullName                                                                Length LastWriteTime      
+--------                                                                ------ -------------      
+C:\vkart\vkart_customer\build\app\outputs\apk\release\app-release.apk 74952724 9/6/2026 3:18:07 PM
+C:\vkart\vkart_customer\build\app\outputs\flutter-apk\app-release.apk 74952724 9/6/2026 3:18:08 PM
+
+

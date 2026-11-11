@@ -1,0 +1,10 @@
+﻿{
+  "releases": [
+    {
+      "name": "projects/vkart-1/releases/cloud.firestore",
+      "rulesetName": "projects/vkart-1/rulesets/1cb96a66-c351-47ef-91f9-e3b71b5c3112",
+      "createTime": "2026-07-15T08:21:05.831396Z",
+      "updateTime": "2026-09-09T17:14:47.297802Z"
+    }
+  ]
+}

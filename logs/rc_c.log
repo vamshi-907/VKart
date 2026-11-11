@@ -1,0 +1,97 @@
+Deleting .dart_tool...                                              39ms
+Deleting ephemeral...                                                4ms
+Deleting Generated.xcconfig...                                       3ms
+Deleting flutter_export_environment.sh...                            2ms
+Deleting ephemeral...                                                3ms
+Deleting ephemeral...                                                7ms
+Deleting ephemeral...                                                7ms
+Deleting .flutter-plugins-dependencies...                            0ms
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 99.0.0 (105.0.0 available)
+  _flutterfire_internals 1.3.75 (1.3.77 available)
+  analyzer 12.1.0 (14.1.0 available)
+  built_value 8.12.6 (8.12.7 available)
+  clock 1.1.2 (1.1.3 available)
+  cloud_firestore 6.7.1 (6.9.0 available)
+  cloud_firestore_platform_interface 8.0.5 (8.0.7 available)
+  cloud_firestore_web 5.7.1 (5.7.3 available)
+  code_builder 4.11.1 (4.12.0 available)
+  dart_style 3.1.8 (3.1.13 available)
+  dbus 0.7.14 (0.7.15 available)
+  firebase_auth 6.5.6 (6.6.1 available)
+  firebase_auth_platform_interface 9.0.5 (9.0.7 available)
+  firebase_auth_web 6.2.5 (6.2.7 available)
+  firebase_core 4.12.1 (4.14.0 available)
+  firebase_core_platform_interface 8.0.0 (8.1.1 available)
+  firebase_core_web 3.9.1 (3.11.0 available)
+  geocoding_darwin 1.0.2 (1.0.3 available)
+  geolocator_platform_interface 4.2.8 (4.3.0 available)
+  glob 2.1.3 (2.2.0 available)
+  google_sign_in 6.2.0 (7.2.0 available)
+  google_sign_in_android 6.2.1 (7.2.17 available)
+  google_sign_in_ios 5.9.0 (6.3.2 available)
+  google_sign_in_platform_interface 2.5.0 (3.1.0 available)
+  google_sign_in_web 0.12.4+4 (1.1.3 available)
+  mailer 6.6.0 (7.2.0 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.0 (1.19.0 available)
+  mime 2.0.0 (2.1.0 available)
+  package_config 2.2.0 (3.0.0 available)
+  pigeon 26.3.4 (28.0.0 available)
+  pub_semver 2.2.0 (2.2.1 available)
+  shared_preferences_android 2.4.26 (2.4.28 available)
+  shared_preferences_foundation 2.5.6 (2.5.7 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test_api 0.7.11 (0.7.13 available)
+  vector_math 2.2.0 (2.4.2 available)
+  vm_service 15.2.0 (15.3.0 available)
+  win32 6.3.0 (6.4.0 available)
+  xml 6.6.1 (7.0.1 available)
+  yaml 3.1.3 (3.1.4 available)
+Got dependencies!
+42 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing vkart_customer...                                     
+
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\main.dart:19:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\main.dart:21:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\main.dart:26:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\main.dart:28:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\main.dart:29:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\main.dart:31:3 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\main.dart:33:3 - avoid_print
+warning - Unused import: 'package:vkart_shared/vkart_shared.dart'. Try removing the import directive - lib\screens\cart\checkout_screen.dart:3:8 - unused_import
+warning - Unused import: '../../services/auth_service.dart'. Try removing the import directive - lib\screens\cart\checkout_screen.dart:11:8 - unused_import
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\screens\cart\checkout_screen.dart:76:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\screens\cart\checkout_screen.dart:86:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\screens\cart\checkout_screen.dart:95:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\screens\cart\checkout_screen.dart:104:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\screens\cart\checkout_screen.dart:110:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check - lib\screens\cart\checkout_screen.dart:119:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext - lib\screens\cart\checkout_screen.dart:384:62 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check. Guard a 'State.context' use with a 'mounted' check on the State, and other BuildContext use with a 'mounted' check on the BuildContext - lib\screens\cart\checkout_screen.dart:389:62 - use_build_context_synchronously
+warning - Unused import: 'package:flutter/material.dart'. Try removing the import directive - lib\screens\delivery_location_selection_screen.dart:1:8 - unused_import
+warning - Unused import: 'package:provider/provider.dart'. Try removing the import directive - lib\screens\delivery_location_selection_screen.dart:2:8 - unused_import
+warning - Unused import: '../theme/app_colors.dart'. Try removing the import directive - lib\screens\delivery_location_selection_screen.dart:3:8 - unused_import
+warning - Unused import: '../providers/delivery_location_provider.dart'. Try removing the import directive - lib\screens\delivery_location_selection_screen.dart:4:8 - unused_import
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\screens\splash\splash_screen.dart:22:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\screens\splash\splash_screen.dart:35:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\screens\splash\splash_screen.dart:42:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\screens\splash\splash_screen.dart:43:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\screens\splash\splash_screen.dart:44:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\screens\splash\splash_screen.dart:45:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\screens\splash\splash_screen.dart:48:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\screens\splash\splash_screen.dart:53:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\screens\splash\splash_screen.dart:59:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\screens\splash\splash_screen.dart:63:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\screens\splash\splash_screen.dart:67:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\screens\splash\splash_screen.dart:74:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\screens\splash\splash_screen.dart:78:7 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\screens\splash\splash_screen.dart:86:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\screens\splash\splash_screen.dart:96:5 - avoid_print
+   info - Don't invoke 'print' in production code. Try using a logging framework - lib\screens\splash\splash_screen.dart:111:5 - avoid_print
+warning - The declaration '_validSelectedLocation' isn't referenced. Try removing the declaration of '_validSelectedLocation' - lib\widgets\home_header.dart:227:21 - unused_element
+
+38 issues found. (ran in 7.0s)

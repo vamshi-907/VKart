@@ -1,0 +1,2 @@
+FINDSTR: Cannot open uses-permission\ C:\vkart\logs\s46f_badging_cust.txt 
+---SOURCE--- 

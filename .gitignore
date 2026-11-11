@@ -1,0 +1,33 @@
+# VKart monorepo root ignore rules
+# Each Flutter app has its own .gitignore; this file adds workspace-wide
+# production-signing and secret protections.
+
+# --- Release signing secrets (never commit) ---
+key.properties
+**/key.properties
+*.jks
+*.keystore
+**/*.jks
+**/*.keystore
+keystore/
+
+# --- SMTP / Firebase credentials (never commit) ---
+lib/config/smtp_config.dart
+serviceAccount*.json
+**/serviceAccount*.json
+credentials.json
+**/credentials.json
+
+# --- Local machine config ---
+local.properties
+**/local.properties
+.env
+**/.env
+
+# --- Build outputs ---
+build/
+**/build/
+.dart_tool/
+**/.dart_tool/
+.flutter-plugins-dependencies
+**/.flutter-plugins-dependencies

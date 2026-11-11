@@ -1,0 +1,11 @@
+﻿
+Name            Length LastWriteTime      
+----            ------ -------------      
+s44_an_a.log        64 9/5/2026 8:25:08 PM
+s44_an_c.log      6327 9/5/2026 8:24:25 PM
+s44_clean_a.log    657 9/5/2026 8:24:49 PM
+s44_clean_c.log    657 9/5/2026 8:20:22 PM
+s44_pub_a.log     2052 9/5/2026 8:24:57 PM
+s44_pub_c.log     1983 9/5/2026 8:20:32 PM
+
+

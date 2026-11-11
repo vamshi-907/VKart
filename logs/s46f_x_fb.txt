@@ -1,0 +1,29 @@
+C:\vkart\vkart_customer\android\app\google-services.json:    "project_id": "vkart-1",
+C:\vkart\vkart_customer\android\app\google-services.json:          "package_name": "com.example.vkart_customer"
+C:\vkart\vkart_customer\android\app\google-services.json:          "package_name": "com.vkart.admin"
+C:\vkart\vkart_customer\android\app\google-services.json:          "package_name": "com.vkart.customer"
+C:\vkart\vkart_customer\android\app\google-services.json:          "package_name": "com.vkart.deliverypartner"
+C:\vkart\vkart_customer\android\app\google-services.json:          "package_name": "com.vkart.vkart_admin"
+C:\vkart\vkart_customer\android\app\google-services.json:            "package_name": "com.vkart.vkart_admin",
+C:\vkart\vkart_admin\android\app\google-services.json:    "project_id": "vkart-1",
+C:\vkart\vkart_admin\android\app\google-services.json:          "package_name": "com.example.vkart_customer"
+C:\vkart\vkart_admin\android\app\google-services.json:          "package_name": "com.vkart.admin"
+C:\vkart\vkart_admin\android\app\google-services.json:          "package_name": "com.vkart.customer"
+C:\vkart\vkart_admin\android\app\google-services.json:          "package_name": "com.vkart.deliverypartner"
+C:\vkart\vkart_admin\android\app\google-services.json:          "package_name": "com.vkart.vkart_admin"
+C:\vkart\vkart_admin\android\app\google-services.json:            "package_name": "com.vkart.vkart_admin",
+C:\vkart\vkart_delivery_partner\android\app\google-services.json:    "project_id": "vkart-1",
+C:\vkart\vkart_delivery_partner\android\app\google-services.json:          "package_name": "com.example.vkart_customer"
+C:\vkart\vkart_delivery_partner\android\app\google-services.json:          "package_name": "com.vkart.admin"
+C:\vkart\vkart_delivery_partner\android\app\google-services.json:          "package_name": "com.vkart.customer"
+C:\vkart\vkart_delivery_partner\android\app\google-services.json:          "package_name": "com.vkart.deliverypartner"
+C:\vkart\vkart_delivery_partner\android\app\google-services.json:          "package_name": "com.vkart.vkart_admin"
+C:\vkart\vkart_delivery_partner\android\app\google-services.json:            "package_name": "com.vkart.vkart_admin",
+====VERSIONS==== 
+C:\vkart\vkart_customer\pubspec.yaml:19:version: 1.0.0+1
+C:\vkart\vkart_admin\pubspec.yaml:4:version: 1.0.0+1
+C:\vkart\vkart_delivery_partner\pubspec.yaml:19:version: 1.0.1+2
+====MANIFEST_PERMS==== 
+3:    <uses-permission android:name="android.permission.INTERNET"/>
+====GEOLOC==== 
+GEOLEXITCODE:0

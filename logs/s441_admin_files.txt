@@ -1,0 +1,37 @@
+﻿
+FullName                                                                     Length
+--------                                                                     ------
+C:\vkart\vkart_admin\lib\repositories\admin_analytics_repository.dart          1256
+C:\vkart\vkart_admin\lib\repositories\admin_audit_repository.dart               677
+C:\vkart\vkart_admin\lib\repositories\admin_brand_repository.dart              1753
+C:\vkart\vkart_admin\lib\repositories\admin_category_repository.dart           1832
+C:\vkart\vkart_admin\lib\repositories\admin_customer_repository.dart           1057
+C:\vkart\vkart_admin\lib\repositories\admin_delivery_partner_repository.dart    618
+C:\vkart\vkart_admin\lib\repositories\admin_notification_repository.dart       1925
+C:\vkart\vkart_admin\lib\repositories\admin_order_repository.dart               779
+C:\vkart\vkart_admin\lib\repositories\admin_product_repository.dart            4147
+C:\vkart\vkart_admin\lib\repositories\admin_settings_repository.dart           2633
+C:\vkart\vkart_admin\lib\repositories\admin_sub_category_repository.dart       1921
+C:\vkart\vkart_admin\lib\providers\admin_analytics_provider.dart               1033
+C:\vkart\vkart_admin\lib\providers\admin_audit_provider.dart                   1078
+C:\vkart\vkart_admin\lib\providers\admin_brand_provider.dart                   1519
+C:\vkart\vkart_admin\lib\providers\admin_category_provider.dart                1819
+C:\vkart\vkart_admin\lib\providers\admin_customer_provider.dart                1276
+C:\vkart\vkart_admin\lib\providers\admin_delivery_partner_provider.dart        1235
+C:\vkart\vkart_admin\lib\providers\admin_notification_provider.dart            1668
+C:\vkart\vkart_admin\lib\providers\admin_order_provider.dart                    769
+C:\vkart\vkart_admin\lib\providers\admin_settings_provider.dart                1486
+C:\vkart\vkart_admin\lib\providers\admin_sub_category_provider.dart            1396
+C:\vkart\vkart_admin\lib\providers\dashboard_stats_provider.dart               1096
+C:\vkart\vkart_admin\lib\providers\orders_provider.dart                        1523
+C:\vkart\vkart_admin\lib\providers\products_provider.dart                      2736
+C:\vkart\vkart_admin\lib\screens\products\add_product_screen.dart             23298
+C:\vkart\vkart_admin\lib\screens\products\edit_product_screen.dart            23816
+C:\vkart\vkart_admin\lib\screens\products\product_list_screen.dart             6980
+C:\vkart\vkart_admin\lib\services\admin_auth_service.dart                      6234
+C:\vkart\vkart_admin\lib\services\audit_logger_service.dart                     814
+C:\vkart\vkart_admin\lib\services\auth_service.dart                              31
+C:\vkart\vkart_admin\lib\services\dashboard_service.dart                        317
+C:\vkart\vkart_admin\lib\services\report_generator_service.dart                   1
+
+

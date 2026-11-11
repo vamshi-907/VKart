@@ -1,0 +1,3 @@
+﻿s44_apk_a.exit: APK_A:0
+s44_apk_c.exit: APK_C:0
+s44_apk_p.exit: APK_P:0

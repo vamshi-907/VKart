@@ -1,0 +1,20 @@
+﻿
+
+Name          : app-debug.apk
+Length        : 97174330
+LastWriteTime : 9/5/2026 6:56:32 PM
+
+Name          : app-debug.apk.sha1
+Length        : 40
+LastWriteTime : 9/5/2026 6:56:40 PM
+
+Name          : app-release.apk
+Length        : 74952372
+LastWriteTime : 9/5/2026 7:43:59 PM
+
+Name          : app-release.apk.sha1
+Length        : 40
+LastWriteTime : 9/5/2026 7:44:03 PM
+
+
+

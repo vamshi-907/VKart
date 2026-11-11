@@ -1,0 +1,3 @@
+﻿66: // PRODUCTS - Public Read, No Write
+68: // All users (authenticated and guest) can read products.
+70: match /products/{productId} {

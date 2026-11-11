@@ -1,0 +1,6 @@
+﻿C:\vkart\vkart_admin\windows\flutter\ephemeral\.plugin_symlinks\cloud_firestore\example\firebase.json | 191 bytes | 07/15/2026 21:12:36
+C:\vkart\vkart_admin\firebase.json | 773 bytes | 08/10/2026 12:16:24
+C:\vkart\vkart_customer\windows\flutter\ephemeral\.plugin_symlinks\cloud_firestore\example\firebase.json | 191 bytes | 07/15/2026 21:12:36
+C:\vkart\vkart_customer\firebase.json | 2223 bytes | 08/30/2026 15:11:25
+C:\vkart\vkart_customer\firestore.rules | 11843 bytes | 09/05/2026 19:08:38
+C:\vkart\vkart_delivery_partner\windows\flutter\ephemeral\.plugin_symlinks\cloud_firestore\example\firebase.json | 191 bytes | 07/31/2026 16:13:04

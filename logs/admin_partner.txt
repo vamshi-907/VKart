@@ -1,0 +1,19 @@
+﻿=== ADMIN PARTNER SURFACE (order screens) ===
+screens\dashboard\dashboard_screen.dart:216: title: 'Delivery Partners',
+screens\dashboard\dashboard_screen.dart:217: value: '${stats['delivery_partners'] ?? 0}',
+screens\delivery\delivery_partner_list_screen.dart:4: import 'package:vkart_admin/providers/admin_delivery_partner_provider.dart';
+screens\delivery\delivery_partner_list_screen.dart:12: class DeliveryPartnerListScreen extends StatelessWidget {
+screens\delivery\delivery_partner_list_screen.dart:13: const DeliveryPartnerListScreen({super.key});
+screens\delivery\delivery_partner_list_screen.dart:17: final provider = context.watch<AdminDeliveryPartnerProvider>();
+screens\delivery\delivery_partner_list_screen.dart:22: title: 'Delivery Partners',
+screens\delivery\delivery_partner_list_screen.dart:23: subtitle: 'Manage delivery partners',
+screens\delivery\delivery_partner_list_screen.dart:29: child: VKartSearchBar(hint: 'Search delivery partners...'),
+screens\delivery\delivery_partner_list_screen.dart:36: context.read<AdminDeliveryPartnerProvider>().retry(),
+screens\delivery\delivery_partner_list_screen.dart:39: ? const VKartLoading(message: 'Loading delivery partners...')
+screens\delivery\delivery_partner_list_screen.dart:40: : provider.partners.isEmpty
+screens\delivery\delivery_partner_list_screen.dart:42: message: 'No delivery partners found',
+screens\delivery\delivery_partner_list_screen.dart:44: 'Delivery partners registered by the store will appear here.',
+screens\delivery\delivery_partner_list_screen.dart:49: itemCount: provider.partners.length,
+=== ADMIN DELIVERY PARTNER REPO WRITES ===
+FILE: admin_delivery_partner_repository.dart
+admin_delivery_partner_repository.dart:10: .collection(_collection)

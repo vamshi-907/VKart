@@ -1,0 +1,3 @@
+FINDSTR: Cannot open mipmap/ic_launcher\ /c:\application-icon\ C:\vkart\logs\s46f_badging_cust.txt 
+ 
+ 

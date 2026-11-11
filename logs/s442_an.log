@@ -1,0 +1,6 @@
+Analyzing vkart_admin...                                        
+
+   info - The import of 'package:firebase_core/firebase_core.dart' is unnecessary because all of the used elements are also provided by the import of 'package:cloud_firestore/cloud_firestore.dart'. Try removing the import directive - lib\repositories\admin_product_repository.dart:4:8 - unnecessary_import
+warning - Unused import: 'package:flutter/foundation.dart'. Try removing the import directive - lib\repositories\admin_product_repository.dart:6:8 - unused_import
+
+2 issues found. (ran in 108.6s)

@@ -1,0 +1,34 @@
+﻿{
+  "error": {
+    "code": 403,
+    "message": "Caller does not have required permission to use project vkart-1. Grant the caller the roles/serviceusage.serviceUsageConsumer role, or a custom role with the serviceusage.services.use permission, by visiting https://console.developers.google.com/iam-admin/iam?project=vkart-1 and then retry. Propagation of the new permission may take a few minutes.",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "USER_PROJECT_DENIED",
+        "domain": "googleapis.com",
+        "metadata": {
+          "consumer": "projects/vkart-1",
+          "service": "firebaserules.googleapis.com",
+          "containerInfo": "vkart-1",
+          "consoleUrl": "https://console.developers.google.com/iam-admin/iam?project=vkart-1"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "Caller does not have required permission to use project vkart-1. Grant the caller the roles/serviceusage.serviceUsageConsumer role, or a custom role with the serviceusage.services.use permission, by visiting https://console.developers.google.com/iam-admin/iam?project=vkart-1 and then retry. Propagation of the new permission may take a few minutes."
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Google developer console IAM admin",
+            "url": "https://console.developers.google.com/iam-admin/iam?project=vkart-1"
+          }
+        ]
+      }
+    ]
+  }
+}

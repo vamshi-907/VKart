@@ -1,0 +1,15 @@
+﻿C:\vkart\vkart_customer\lib\main.dart:88: cartProvider.setUserId(auth.currentUserId!);
+C:\vkart\vkart_customer\lib\main.dart:89: wishlistProvider.setUserId(auth.currentUserId!);
+C:\vkart\vkart_customer\lib\main.dart:91: cartProvider.setUserId(null);
+C:\vkart\vkart_customer\lib\main.dart:92: wishlistProvider.setUserId(null);
+C:\vkart\vkart_customer\lib\providers\cart_provider.dart:85: String? _userId; // Set when user is authenticated
+C:\vkart\vkart_customer\lib\providers\cart_provider.dart:103: Future<void> setUserId(String? userId) async {
+C:\vkart\vkart_customer\lib\providers\cart_provider.dart:104: _userId = userId;
+C:\vkart\vkart_customer\lib\providers\cart_provider.dart:115: if (_userId == null) return;
+C:\vkart\vkart_customer\lib\providers\cart_provider.dart:118: final cartDoc = await _firestore.getCart(_userId!);
+C:\vkart\vkart_customer\lib\providers\cart_provider.dart:135: if (_userId == null) return;
+C:\vkart\vkart_customer\lib\providers\cart_provider.dart:142: await _firestore.saveCart(_userId!, cartData);
+C:\vkart\vkart_customer\lib\providers\cart_provider.dart:152: _userId = userId;
+C:\vkart\vkart_customer\lib\providers\cart_provider.dart:162: _userId = userId;
+C:\vkart\vkart_customer\lib\providers\wishlist_provider.dart:15: String? _userId; // Set when user is authenticated
+C:\vkart\vkart_customer\lib\providers\wishlist_provider.dart:26: Future<void> setUserId(String? userId) async {

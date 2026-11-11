@@ -1,0 +1,1 @@
+# Plan for Brand Management Module\n\n- [ ] Create AdminBrandRepository replicating AdminCategoryRepository pattern.\n- [ ] Create AdminBrandProvider replicating AdminCategoryProvider pattern.\n- [ ] Create Brand screens (list and dialog) in lib/screens/brand/.\n- [ ] Integrate new provider in UI.\n

@@ -1,0 +1,7 @@
+﻿C:\vkart\vkart_customer\lib\config\delivery_config.dart:7: class DeliveryConfig {
+C:\vkart\vkart_customer\lib\config\delivery_config.dart:8: DeliveryConfig._(); // no instances — constants only
+C:\vkart\vkart_customer\lib\providers\cart_provider.dart:242: double get deliveryCharge => DeliveryConfig.deliveryChargeFor(subtotal);
+C:\vkart\vkart_customer\lib\providers\cart_provider.dart:246: final remaining = DeliveryConfig.freeDeliveryThreshold - subtotal;
+C:\vkart\vkart_customer\lib\screens\cart\cart_screen.dart:287: "₹${DeliveryConfig.freeDeliveryThreshold.toStringAsFixed(0)}",
+C:\vkart\vkart_customer\lib\screens\cart\checkout_screen.dart:441: : "Free above ₹${DeliveryConfig.freeDeliveryThreshold.toStringAsFixed(0)}",
+C:\vkart\vkart_customer\lib\screens\product\product_details_screen.dart:152: "Free Delivery above ₹${DeliveryConfig.freeDeliveryThreshold.toStringAsFixed(0)}",

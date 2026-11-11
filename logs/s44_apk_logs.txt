@@ -1,0 +1,8 @@
+﻿
+Name           Length LastWriteTime      
+----           ------ -------------      
+s44_apk_a.log      64 9/6/2026 3:18:20 PM
+s44_apk_c.log    1056 9/6/2026 3:18:13 PM
+s44_apk_c.exit     11 9/6/2026 3:18:14 PM
+
+

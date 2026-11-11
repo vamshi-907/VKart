@@ -1,0 +1,2 @@
+﻿C:\vkart\vkart_customer\lib\config\delivery_config.dart:12:static const double freeDeliveryThreshold = 499;
+C:\vkart\vkart_shared\lib\src\constants\delivery_config.dart:12:static const double freeDeliveryThreshold = 499;

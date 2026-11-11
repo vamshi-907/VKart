@@ -1,0 +1,249 @@
+Launching lib\main.dart on sdk gphone16k x86 64 in debug mode...
+Running Gradle task 'assembleDebug'...                          
+Running Gradle task 'assembleDebug'...                            195.2s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           6.2s
+I/FlutterActivityAndFragmentDelegate( 8972): If you are attempting to set --enable-dart-profiling via Intent extras to launch a Flutter component outside of using the Flutter CLI, note that support for setting engine flags on Android via Intent will soon be dropped; see https://github.com/flutter/flutter/issues/180686 for more information on this breaking change. To migrate, set --enable-dart-profiling or any other flags specified via Intent extras on the command line instead or see https://github.com/flutter/flutter/blob/main/docs/engine/Flutter-Android-Engine-Flags.md for alternative methods.
+D/FlutterJNI( 8972): Beginning load of flutter...
+D/FlutterJNI( 8972): flutter (null) was loaded normally!
+I/flutter ( 8972): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+D/FlutterGeolocator( 8972): Attaching Geolocator to activity
+D/FlutterRenderer( 8972): Width is zero. 0,0
+W/libc    ( 8972): Access denied finding property "vendor.mesa.virtgpu.kumquat"
+I/flutter ( 8972): [STARTUP] main started
+Syncing files to device sdk gphone16k x86 64...                 
+I/flutter ( 8972): [STARTUP] WidgetsFlutterBinding ensured
+D/ProfileInstaller( 8972): Installing profile for com.example.vkart_customer
+D/FlutterGeolocator( 8972): Creating service.
+D/FlutterGeolocator( 8972): Binding to location service.
+I/Choreographer( 8972): Skipped 69 frames!  The application may be doing too much work on its main thread.
+D/WindowOnBackDispatcher( 8972): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@cb60b9d
+I/WindowExtensionsImpl( 8972): Initializing Window Extensions, vendor API level=10, activity embedding enabled=true
+W/UiContextUtils( 8972): Requested context is a non-UI Context. Creating a UI-Context with display: 0. Context: Context=android.app.Application@271ea8e, of which baseContext=android.app.ContextImpl@f1e82e6
+Syncing files to device sdk gphone16k x86 64...                  1,189ms
+D/VRI[MainActivity]( 8972): WindowInsets changed: 1080x2400 statusBars:[0,132,0,0] navigationBars:[0,0,0,63] mandatorySystemGestures:[0,164,0,84] 
+D/FlutterRenderer( 8972): Width is zero. 0,0
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on sdk gphone16k x86 64 is available at: http://127.0.0.1:58980/RnIk__VpChY=/
+The Flutter DevTools debugger and profiler on sdk gphone16k x86 64 is available at: http://127.0.0.1:58980/RnIk__VpChY=/devtools/?uri=ws://127.0.0.1:58980/RnIk__VpChY=/ws
+I/Surface ( 8972): Creating surface for consumer unnamed-8972-0 with slotExpansion=1 for 64 slots
+I/Surface ( 8972): Creating surface for consumer VRI[MainActivity]#0(BLAST Consumer)0 with slotExpansion=1 for 64 slots
+D/FlutterJNI( 8972): Sending viewport metrics to the engine.
+I/Surface ( 8972): Creating surface for consumer unnamed-8972-1 with slotExpansion=1 for 64 slots
+I/Surface ( 8972): Creating surface for consumer 4f09840 SurfaceView[com.example.vkart_customer/com.example.vkart_customer.MainActivity]#1(BLAST Consumer)1 with slotExpansion=1 for 64 slots
+D/FlutterGeolocator( 8972): Geolocator foreground service connected
+D/FlutterGeolocator( 8972): Initializing Geolocator services
+D/FlutterGeolocator( 8972): Flutter engine connected. Connected engine count 1
+I/Choreographer( 8972): Skipped 125 frames!  The application may be doing too much work on its main thread.
+D/WindowLayoutComponentImpl( 8972): Register WindowLayoutInfoListener on Context=com.example.vkart_customer.MainActivity@c2ecd1f, of which baseContext=android.app.ContextImpl@8974117
+D/FlutterJNI( 8972): Sending viewport metrics to the engine.
+I/.vkart_customer( 8972): Background concurrent mark compact GC freed 2855KB AllocSpace bytes, 6(240KB) LOS objects, 49% free, 3169KB/6338KB, paused 11.230ms,75.495ms total 221.960ms
+I/flutter ( 8972): [STARTUP] Firebase initialized successfully
+I/flutter ( 8972): [STARTUP] About to runApp
+I/flutter ( 8972): [STARTUP] runApp called
+I/.vkart_customer( 8972): Compiler allocated 5230KB to compile void android.view.ViewRootImpl.performTraversals(long)
+I/flutter ( 8972): [SPLASH] initState called
+I/flutter ( 8972): [SPLASH] Checking authentication state
+I/flutter ( 8972): [SPLASH] Auth state = AuthState.loading
+I/flutter ( 8972): [SPLASH] isAuthenticated = false
+I/flutter ( 8972): [SPLASH] Current user = null
+I/flutter ( 8972): [SPLASH] Authentication initialization in progress, waiting...
+I/flutter ( 8972): [SPLASH] build called
+I/Choreographer( 8972): Skipped 368 frames!  The application may be doing too much work on its main thread.
+D/FlutterJNI( 8972): Sending viewport metrics to the engine.
+W/DynamiteModule( 8972): Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found.
+W/.vkart_customer( 8972): Verification of void com.google.firebase.firestore.remote.RemoteStore.<init>(com.google.firebase.firestore.model.DatabaseId, com.google.firebase.firestore.remote.RemoteStore$RemoteStoreCallback, com.google.firebase.firestore.local.LocalStore, com.google.firebase.firestore.remote.Datastore, com.google.firebase.firestore.util.AsyncQueue, com.google.firebase.firestore.remote.ConnectivityMonitor) took 122.846ms (618.66 bytecodes/s) (0B arena alloc)
+I/DynamiteModule( 8972): Considering local module com.google.android.gms.providerinstaller.dynamite:0 and remote module com.google.android.gms.providerinstaller.dynamite:0
+W/ProviderInstaller( 8972): Failed to load providerinstaller module: No acceptable module com.google.android.gms.providerinstaller.dynamite found. Local version is 0 and remote version is 0.
+D/ApplicationLoaders( 8972): Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+D/ApplicationLoaders( 8972): Returning zygote-cached class loader: /system/framework/com.android.location.provider.jar
+D/ApplicationLoaders( 8972): Returning zygote-cached class loader: /system/framework/com.android.media.remotedisplay.jar
+D/ApplicationLoaders( 8972): Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+D/ApplicationLoaders( 8972): Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+D/nativeloader( 8972): Configuring clns-10 for other apk /data/app/~~eORpfLcXxaGOTSW_wO7jZQ==/com.google.android.gms-fkocQybh7k0PHLX8SZWYzw==/base.apk. target_sdk_version=37, uses_libraries=, library_path=/data/app/~~eORpfLcXxaGOTSW_wO7jZQ==/com.google.android.gms-fkocQybh7k0PHLX8SZWYzw==/lib/x86_64:/data/app/~~eORpfLcXxaGOTSW_wO7jZQ==/com.google.android.gms-fkocQybh7k0PHLX8SZWYzw==/base.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+W/.vkart_customer( 8972): Verification of com.google.firestore.v1.WriteResponse$Builder com.google.firestore.v1.WriteResponse.newBuilder() took 110.452ms (81.48 bytecodes/s) (0B arena alloc)
+W/.vkart_customer( 8972): Verification of void com.google.protobuf.WireFormat$FieldType.<clinit>() took 132.800ms (2025.60 bytecodes/s) (0B arena alloc)
+E/SurfaceSyncGroup( 8972): Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(wmsSync-VRI[MainActivity]#1) as ready
+E/SurfaceSyncGroup( 8972): Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[MainActivity]#2) as ready
+I/HWUI    ( 8972): Davey! duration=2151ms; Flags=1, FrameTimelineVsyncId=36586, IntendedVsync=1539659492560, Vsync=1539692825892, InputEventId=0, HandleInputStart=1539706220400, AnimationStart=1539706254600, PerformTraversalsStart=1539706303800, DrawStart=1539723008200, FrameDeadline=1539676159226, FrameStartTime=1539706194100, FrameInterval=16666666, WorkloadTarget=16666666, AnimationTime=1539692825892, SyncQueued=1539734695700, SyncStart=1539735098000, IssueDrawCommandsStart=1539736724800, SwapBuffers=1539998845400, FrameCompleted=1541811649400, DequeueBufferDuration=51995400, QueueBufferDuration=930600, GpuCompleted=1541811649400, SwapBuffersCompleted=1541799858500, DisplayPresentTime=128229885451408, CommandSubmissionCompleted=1539998845400, 
+D/InsetsController( 8972): hide(ime())
+I/ImeTracker( 8972): com.example.vkart_customer:3c175b03: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+I/.vkart_customer( 8972): hiddenapi: Accessing hidden method Ldalvik/system/VMStack;->getStackClass2()Ljava/lang/Class; (runtime_flags=0, domain=core-platform, api=unsupported) from Lhoyu; (domain=app, TargetSdkVersion=36) using reflection: allowed
+E/GoogleApiManager( 8972): Failed to get service from broker. 
+E/GoogleApiManager( 8972): java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+E/GoogleApiManager( 8972): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3392)
+E/GoogleApiManager( 8972): 	at android.os.Parcel.createException(Parcel.java:3376)
+E/GoogleApiManager( 8972): 	at android.os.Parcel.readException(Parcel.java:3359)
+E/GoogleApiManager( 8972): 	at android.os.Parcel.readException(Parcel.java:3301)
+E/GoogleApiManager( 8972): 	at blqo.a(:com.google.android.gms@262833038@26.28.33 (260800-955982596):36)
+E/GoogleApiManager( 8972): 	at bloh.y(:com.google.android.gms@262833038@26.28.33 (260800-955982596):144)
+E/GoogleApiManager( 8972): 	at bkum.run(:com.google.android.gms@262833038@26.28.33 (260800-955982596):42)
+E/GoogleApiManager( 8972): 	at android.os.Handler.handleCallback(Handler.java:1095)
+E/GoogleApiManager( 8972): 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+E/GoogleApiManager( 8972): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+E/GoogleApiManager( 8972): 	at dgej.mu(:com.google.android.gms@262833038@26.28.33 (260800-955982596):1)
+E/GoogleApiManager( 8972): 	at dgej.dispatchMessage(:com.google.android.gms@262833038@26.28.33 (260800-955982596):5)
+E/GoogleApiManager( 8972): 	at android.os.Looper.loopOnce(Looper.java:296)
+E/GoogleApiManager( 8972): 	at android.os.Looper.loop(Looper.java:397)
+E/GoogleApiManager( 8972): 	at android.os.HandlerThread.run(HandlerThread.java:139)
+W/GoogleApiManager( 8972): Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+W/FlagRegistrar( 8972): Failed to register com.google.android.gms.providerinstaller#com.example.vkart_customer
+W/FlagRegistrar( 8972): gtrj: 17: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+W/FlagRegistrar( 8972): 	at gtrl.a(:com.google.android.gms@262833038@26.28.33 (260800-955982596):13)
+W/FlagRegistrar( 8972): 	at huqb.d(:com.google.android.gms@262833038@26.28.33 (260800-955982596):3)
+W/FlagRegistrar( 8972): 	at huqd.run(:com.google.android.gms@262833038@26.28.33 (260800-955982596):139)
+W/FlagRegistrar( 8972): 	at husp.execute(:com.google.android.gms@262833038@26.28.33 (260800-955982596):1)
+W/FlagRegistrar( 8972): 	at huql.f(:com.google.android.gms@262833038@26.28.33 (260800-955982596):1)
+W/FlagRegistrar( 8972): 	at huql.m(:com.google.android.gms@262833038@26.28.33 (260800-955982596):101)
+W/FlagRegistrar( 8972): 	at huql.q(:com.google.android.gms@262833038@26.28.33 (260800-955982596):16)
+W/FlagRegistrar( 8972): 	at gmzu.hA(:com.google.android.gms@262833038@26.28.33 (260800-955982596):35)
+W/FlagRegistrar( 8972): 	at fyzy.run(:com.google.android.gms@262833038@26.28.33 (260800-955982596):12)
+W/FlagRegistrar( 8972): 	at husp.execute(:com.google.android.gms@262833038@26.28.33 (260800-955982596):1)
+W/FlagRegistrar( 8972): 	at fyzz.b(:com.google.android.gms@262833038@26.28.33 (260800-955982596):18)
+W/FlagRegistrar( 8972): 	at fzao.b(:com.google.android.gms@262833038@26.28.33 (260800-955982596):34)
+W/FlagRegistrar( 8972): 	at fzaq.c(:com.google.android.gms@262833038@26.28.33 (260800-955982596):23)
+W/FlagRegistrar( 8972): 	at bkru.e(:com.google.android.gms@262833038@26.28.33 (260800-955982596):9)
+W/FlagRegistrar( 8972): 	at bkuk.r(:com.google.android.gms@262833038@26.28.33 (260800-955982596):48)
+W/FlagRegistrar( 8972): 	at bkuk.d(:com.google.android.gms@262833038@26.28.33 (260800-955982596):10)
+W/FlagRegistrar( 8972): 	at bkuk.g(:com.google.android.gms@262833038@26.28.33 (260800-955982596):191)
+W/FlagRegistrar( 8972): 	at bkuk.onConnectionFailed(:com.google.android.gms@262833038@26.28.33 (260800-955982596):2)
+W/FlagRegistrar( 8972): 	at bkum.run(:com.google.android.gms@262833038@26.28.33 (260800-955982596):70)
+W/FlagRegistrar( 8972): 	at android.os.Handler.handleCallback(Handler.java:1095)
+W/FlagRegistrar( 8972): 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+W/FlagRegistrar( 8972): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+W/FlagRegistrar( 8972): 	at dgej.mu(:com.google.android.gms@262833038@26.28.33 (260800-955982596):1)
+W/FlagRegistrar( 8972): 	at dgej.dispatchMessage(:com.google.android.gms@262833038@26.28.33 (260800-955982596):5)
+W/FlagRegistrar( 8972): 	at android.os.Looper.loopOnce(Looper.java:296)
+W/FlagRegistrar( 8972): 	at android.os.Looper.loop(Looper.java:397)
+W/FlagRegistrar( 8972): 	at android.os.HandlerThread.run(HandlerThread.java:139)
+W/FlagRegistrar( 8972): Caused by: bkpz: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+W/FlagRegistrar( 8972): 	at blnt.a(:com.google.android.gms@262833038@26.28.33 (260800-955982596):15)
+W/FlagRegistrar( 8972): 	at bkrx.a(:com.google.android.gms@262833038@26.28.33 (260800-955982596):1)
+W/FlagRegistrar( 8972): 	at bkru.e(:com.google.android.gms@262833038@26.28.33 (260800-955982596):5)
+W/FlagRegistrar( 8972): 	... 13 more
+I/gtqy    ( 8972): Unable to retrieve flag snapshot for com.google.android.gms.providerinstaller#com.example.vkart_customer, using defaults.
+E/GoogleApiManager( 8972): Failed to get service from broker. 
+E/GoogleApiManager( 8972): java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+E/GoogleApiManager( 8972): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3392)
+E/GoogleApiManager( 8972): 	at android.os.Parcel.createException(Parcel.java:3376)
+E/GoogleApiManager( 8972): 	at android.os.Parcel.readException(Parcel.java:3359)
+E/GoogleApiManager( 8972): 	at android.os.Parcel.readException(Parcel.java:3301)
+E/GoogleApiManager( 8972): 	at blqo.a(:com.google.android.gms@262833038@26.28.33 (260800-955982596):36)
+E/GoogleApiManager( 8972): 	at bloh.y(:com.google.android.gms@262833038@26.28.33 (260800-955982596):144)
+E/GoogleApiManager( 8972): 	at bkum.run(:com.google.android.gms@262833038@26.28.33 (260800-955982596):42)
+E/GoogleApiManager( 8972): 	at android.os.Handler.handleCallback(Handler.java:1095)
+E/GoogleApiManager( 8972): 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+E/GoogleApiManager( 8972): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+E/GoogleApiManager( 8972): 	at dgej.mu(:com.google.android.gms@262833038@26.28.33 (260800-955982596):1)
+E/GoogleApiManager( 8972): 	at dgej.dispatchMessage(:com.google.android.gms@262833038@26.28.33 (260800-955982596):5)
+E/GoogleApiManager( 8972): 	at android.os.Looper.loopOnce(Looper.java:296)
+E/GoogleApiManager( 8972): 	at android.os.Looper.loop(Looper.java:397)
+E/GoogleApiManager( 8972): 	at android.os.HandlerThread.run(HandlerThread.java:139)
+W/GoogleApiManager( 8972): Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+W/FlagStore( 8972): Unable to update local snapshot for com.google.android.gms.providerinstaller#com.example.vkart_customer, may result in stale flags.
+W/FlagStore( 8972): java.util.concurrent.ExecutionException: gtrj: 17: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+W/FlagStore( 8972): 	at huql.j(:com.google.android.gms@262833038@26.28.33 (260800-955982596):21)
+W/FlagStore( 8972): 	at huqu.t(:com.google.android.gms@262833038@26.28.33 (260800-955982596):24)
+W/FlagStore( 8972): 	at huql.get(:com.google.android.gms@262833038@26.28.33 (260800-955982596):1)
+W/FlagStore( 8972): 	at huve.a(:com.google.android.gms@262833038@26.28.33 (260800-955982596):2)
+W/FlagStore( 8972): 	at hutu.s(:com.google.android.gms@262833038@26.28.33 (260800-955982596):10)
+W/FlagStore( 8972): 	at gtwt.d(:com.google.android.gms@262833038@26.28.33 (260800-955982596):1)
+W/FlagStore( 8972): 	at gtvx.run(:com.google.android.gms@262833038@26.28.33 (260800-955982596):5)
+W/FlagStore( 8972): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+W/FlagStore( 8972): 	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+W/FlagStore( 8972): 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:323)
+W/FlagStore( 8972): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+W/FlagStore( 8972): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+W/FlagStore( 8972): 	at java.lang.Thread.run(Thread.java:1572)
+W/FlagStore( 8972): Caused by: gtrj: 17: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+W/FlagStore( 8972): 	at gtrl.a(:com.google.android.gms@262833038@26.28.33 (260800-955982596):13)
+W/FlagStore( 8972): 	at huqb.d(:com.google.android.gms@262833038@26.28.33 (260800-955982596):3)
+W/FlagStore( 8972): 	at huqd.run(:com.google.android.gms@262833038@26.28.33 (260800-955982596):139)
+W/FlagStore( 8972): 	at husp.execute(:com.google.android.gms@262833038@26.28.33 (260800-955982596):1)
+W/FlagStore( 8972): 	at huql.f(:com.google.android.gms@262833038@26.28.33 (260800-955982596):1)
+W/FlagStore( 8972): 	at huql.m(:com.google.android.gms@262833038@26.28.33 (260800-955982596):101)
+W/FlagStore( 8972): 	at huql.q(:com.google.android.gms@262833038@26.28.33 (260800-955982596):16)
+W/FlagStore( 8972): 	at gmzu.hA(:com.google.android.gms@262833038@26.28.33 (260800-955982596):35)
+W/FlagStore( 8972): 	at fyzy.run(:com.google.android.gms@262833038@26.28.33 (260800-955982596):12)
+W/FlagStore( 8972): 	at husp.execute(:com.google.android.gms@262833038@26.28.33 (260800-955982596):1)
+W/FlagStore( 8972): 	at fyzz.b(:com.google.android.gms@262833038@26.28.33 (260800-955982596):18)
+W/FlagStore( 8972): 	at fzao.b(:com.google.android.gms@262833038@26.28.33 (260800-955982596):34)
+W/FlagStore( 8972): 	at fzav.B(:com.google.android.gms@262833038@26.28.33 (260800-955982596):17)
+W/FlagStore( 8972): 	at fyzq.run(:com.google.android.gms@262833038@26.28.33 (260800-955982596):60)
+W/FlagStore( 8972): 	at husp.execute(:com.google.android.gms@262833038@26.28.33 (260800-955982596):1)
+W/FlagStore( 8972): 	at fyzr.b(:com.google.android.gms@262833038@26.28.33 (260800-955982596):8)
+W/FlagStore( 8972): 	at fzao.b(:com.google.android.gms@262833038@26.28.33 (260800-955982596):34)
+W/FlagStore( 8972): 	at fzaq.c(:com.google.android.gms@262833038@26.28.33 (260800-955982596):23)
+W/FlagStore( 8972): 	at bkru.e(:com.google.android.gms@262833038@26.28.33 (260800-955982596):9)
+W/FlagStore( 8972): 	at bkuk.r(:com.google.android.gms@262833038@26.28.33 (260800-955982596):48)
+W/FlagStore( 8972): 	at bkuk.d(:com.google.android.gms@262833038@26.28.33 (260800-955982596):10)
+W/FlagStore( 8972): 	at bkuk.g(:com.google.android.gms@262833038@26.28.33 (260800-955982596):191)
+W/FlagStore( 8972): 	at bkuk.onConnectionFailed(:com.google.android.gms@262833038@26.28.33 (260800-955982596):2)
+W/FlagStore( 8972): 	at bkum.run(:com.google.android.gms@262833038@26.28.33 (260800-955982596):70)
+W/FlagStore( 8972): 	at android.os.Handler.handleCallback(Handler.java:1095)
+W/FlagStore( 8972): 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+W/FlagStore( 8972): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+W/FlagStore( 8972): 	at dgej.mu(:com.google.android.gms@262833038@26.28.33 (260800-955982596):1)
+W/FlagStore( 8972): 	at dgej.dispatchMessage(:com.google.android.gms@262833038@26.28.33 (260800-955982596):5)
+W/FlagStore( 8972): 	at android.os.Looper.loopOnce(Looper.java:296)
+W/FlagStore( 8972): 	at android.os.Looper.loop(Looper.java:397)
+W/FlagStore( 8972): 	at android.os.HandlerThread.run(HandlerThread.java:139)
+W/FlagStore( 8972): Caused by: bkpz: 17: API: Phenotype.API is not available on this device. Connection failed with: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+W/FlagStore( 8972): 	at blnt.a(:com.google.android.gms@262833038@26.28.33 (260800-955982596):15)
+W/FlagStore( 8972): 	at bkrx.a(:com.google.android.gms@262833038@26.28.33 (260800-955982596):1)
+W/FlagStore( 8972): 	at bkru.e(:com.google.android.gms@262833038@26.28.33 (260800-955982596):5)
+W/FlagStore( 8972): 	... 13 more
+I/ProviderInstaller( 8972): Installed default security provider AndroidOpenSSL (via CompatProvider)
+W/.vkart_customer( 8972): Verification of void io.grpc.internal.ProxyDetectorImpl.<clinit>() took 114.676ms (235.45 bytecodes/s) (0B arena alloc)
+W/.vkart_customer( 8972): Suspending all threads took: 100.863ms
+I/.vkart_customer( 8972): Background young concurrent mark compact GC freed 2210KB AllocSpace bytes, 0(0B) LOS objects, 35% free, 4112KB/6338KB, paused 103.263ms,37.059ms total 305.579ms
+W/.vkart_customer( 8972): Verification of void io.grpc.internal.RetriableStream.<init>(io.grpc.MethodDescriptor, io.grpc.Metadata, io.grpc.internal.RetriableStream$ChannelBufferMeter, long, long, java.util.concurrent.Executor, java.util.concurrent.ScheduledExecutorService, io.grpc.internal.RetryPolicy, io.grpc.internal.HedgingPolicy, io.grpc.internal.RetriableStream$Throttle) took 118.137ms (1210.46 bytecodes/s) (0B arena alloc)
+I/flutter ( 8972): AuthProvider: Auto-login successful for 2200070005ece@gmail.com
+I/flutter ( 8972): [SPLASH] Auth state changed: AuthState.authenticated
+I/flutter ( 8972): [SPLASH] Checking authentication state
+I/flutter ( 8972): [SPLASH] Auth state = AuthState.authenticated
+I/flutter ( 8972): [SPLASH] isAuthenticated = true
+I/flutter ( 8972): [SPLASH] Current user = 2200070005ece@gmail.com
+I/flutter ( 8972): [SPLASH] Authentication initialization completed
+I/flutter ( 8972): [SPLASH] Navigating to authenticated screen
+I/flutter ( 8972): [SPLASH] Navigation completed to MainNavigationScreen
+E/GoogleApiManager( 8972): Failed to get service from broker. 
+E/GoogleApiManager( 8972): java.lang.SecurityException: Unknown calling package name 'com.google.android.gms'.
+E/GoogleApiManager( 8972): 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3392)
+E/GoogleApiManager( 8972): 	at android.os.Parcel.createException(Parcel.java:3376)
+E/GoogleApiManager( 8972): 	at android.os.Parcel.readException(Parcel.java:3359)
+E/GoogleApiManager( 8972): 	at android.os.Parcel.readException(Parcel.java:3301)
+E/GoogleApiManager( 8972): 	at blqo.a(:com.google.android.gms@262833038@26.28.33 (260800-955982596):36)
+E/GoogleApiManager( 8972): 	at bloh.y(:com.google.android.gms@262833038@26.28.33 (260800-955982596):144)
+E/GoogleApiManager( 8972): 	at bkum.run(:com.google.android.gms@262833038@26.28.33 (260800-955982596):42)
+E/GoogleApiManager( 8972): 	at android.os.Handler.handleCallback(Handler.java:1095)
+E/GoogleApiManager( 8972): 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+E/GoogleApiManager( 8972): 	at android.os.Handler.dispatchMessage(Handler.java:125)
+E/GoogleApiManager( 8972): 	at dgej.mu(:com.google.android.gms@262833038@26.28.33 (260800-955982596):1)
+E/GoogleApiManager( 8972): 	at dgej.dispatchMessage(:com.google.android.gms@262833038@26.28.33 (260800-955982596):5)
+E/GoogleApiManager( 8972): 	at android.os.Looper.loopOnce(Looper.java:296)
+E/GoogleApiManager( 8972): 	at android.os.Looper.loop(Looper.java:397)
+E/GoogleApiManager( 8972): 	at android.os.HandlerThread.run(HandlerThread.java:139)
+W/GoogleApiManager( 8972): Not showing notification since connectionResult is not user-facing: ConnectionResult{statusCode=DEVELOPER_ERROR, resolution=null, message=null, clientMethodKey=null}
+D/DesktopExperienceFlags( 8972): Toggle override initialized to: false
+D/WindowOnBackDispatcher( 8972): setTopOnBackInvokedCallback (unwrapped): io.flutter.embedding.android.FlutterActivity$1@abc53e8
+D/WindowOnBackDispatcher( 8972): setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@cb60b9d
+W/.vkart_customer( 8972): Verification of void com.google.firebase.firestore.Query.<init>(com.google.firebase.firestore.core.Query, com.google.firebase.firestore.FirebaseFirestore) took 100.434ms (199.13 bytecodes/s) (0B arena alloc)
+I/.vkart_customer( 8972): Background young concurrent mark compact GC freed 1874KB AllocSpace bytes, 0(0B) LOS objects, 19% free, 5090KB/6338KB, paused 2.484ms,217.709ms total 401.507ms
+W/Firestore( 8972): (26.4.0) [Firestore]: Listen for QueryWrapper(query=Query(target=Query(cart/2200070005ece@gmail.com order by __name__);limitType=LIMIT_TO_FIRST)) failed: Status{code=PERMISSION_DENIED, description=Missing or insufficient permissions., cause=null}
+I/flutter ( 8972): CartProvider._loadFromFirestore failed: [cloud_firestore/permission-denied] PERMISSION_DENIED: Missing or insufficient permissions.
+W/Firestore( 8972): (26.4.0) [Firestore]: Listen for QueryWrapper(query=Query(target=Query(wishlist/2200070005ece@gmail.com order by __name__);limitType=LIMIT_TO_FIRST)) failed: Status{code=PERMISSION_DENIED, description=Missing or insufficient permissions., cause=null}
+I/flutter ( 8972): WishlistProvider._loadFromFirestore failed: [cloud_firestore/permission-denied] PERMISSION_DENIED: Missing or insufficient permissions.
+I/.vkart_customer( 8972): Background concurrent mark compact GC freed 752KB AllocSpace bytes, 1(32KB) LOS objects, 49% free, 5394KB/10MB, paused 1.902ms,12.283ms total 44.314ms
+I/flutter ( 8972): ========== PRODUCTS ==========
+I/flutter ( 8972): Loaded: 115
+I/flutter ( 8972): ==============================
+Lost connection to device.

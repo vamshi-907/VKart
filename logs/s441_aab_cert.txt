@@ -1,0 +1,21 @@
+﻿Owner: CN=VKart, OU=VKart, O=VKart, L=Hyderabad, ST=Telangana, C=IN
+Issuer: CN=VKart, OU=VKart, O=VKart, L=Hyderabad, ST=Telangana, C=IN
+Serial number: 5bd2656f16c66239
+Valid from: Sat Sep 05 20:13:15 IST 2026 until: Wed Jan 21 20:13:15 IST 2054
+Certificate fingerprints:
+	 SHA1: FF:45:7A:32:A8:D2:0D:AB:30:BB:5B:29:5E:35:25:F2:8A:54:FC:4F
+	 SHA256: 9A:31:6A:B1:C0:8D:B6:39:2C:76:98:98:9D:55:3E:96:0E:66:D5:1A:5F:CC:DA:B5:A5:9D:4A:56:01:66:EC:B7
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 4096-bit RSA key
+Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 8A 51 4E DD 48 76 24 B2   56 62 AC E0 BA 42 16 A1  .QN.Hv$.Vb...B..
+0010: 51 AA C8 37                                        Q..7
+]
+]
+

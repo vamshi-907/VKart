@@ -1,0 +1,8 @@
+s46f_admin_aab.txt
+s46f_admin_aab2.txt
+s46f_admin_apk.txt
+s46f_admin_apk2.txt
+s46f_artifacts.txt
+s46f_customer_aab.txt
+s46f_customer_apk.txt
+s46f_loglist.txt

@@ -1,0 +1,198 @@
+{
+  "project_info": {
+    "project_number": "773093189958",
+    "project_id": "vkart-1",
+    "storage_bucket": "vkart-1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773093189958:android:754a5c11cb56815afb9d47",
+        "android_client_info": {
+          "package_name": "com.example.vkart_customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773093189958-fjhmb0obvlvcdctj9i9oo3dqc0500aje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5H6xfdQEsk2yHXfYLY2Mz3aJf6D_Z4rA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773093189958-fjhmb0obvlvcdctj9i9oo3dqc0500aje.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "773093189958-8202cnn8vg1t9cm46jco2fr5qc2o9jtq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vkart.vkartAdmin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773093189958:android:309fee3dc65d09c3fb9d47",
+        "android_client_info": {
+          "package_name": "com.vkart.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773093189958-fjhmb0obvlvcdctj9i9oo3dqc0500aje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5H6xfdQEsk2yHXfYLY2Mz3aJf6D_Z4rA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773093189958-fjhmb0obvlvcdctj9i9oo3dqc0500aje.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "773093189958-8202cnn8vg1t9cm46jco2fr5qc2o9jtq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vkart.vkartAdmin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773093189958:android:f6c20f579e158afcfb9d47",
+        "android_client_info": {
+          "package_name": "com.vkart.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773093189958-fjhmb0obvlvcdctj9i9oo3dqc0500aje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5H6xfdQEsk2yHXfYLY2Mz3aJf6D_Z4rA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773093189958-fjhmb0obvlvcdctj9i9oo3dqc0500aje.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "773093189958-8202cnn8vg1t9cm46jco2fr5qc2o9jtq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vkart.vkartAdmin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773093189958:android:f7324fb03380b605fb9d47",
+        "android_client_info": {
+          "package_name": "com.vkart.deliverypartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773093189958-fjhmb0obvlvcdctj9i9oo3dqc0500aje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5H6xfdQEsk2yHXfYLY2Mz3aJf6D_Z4rA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773093189958-fjhmb0obvlvcdctj9i9oo3dqc0500aje.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "773093189958-8202cnn8vg1t9cm46jco2fr5qc2o9jtq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vkart.vkartAdmin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773093189958:android:bb4df8f2bab90baffb9d47",
+        "android_client_info": {
+          "package_name": "com.vkart.vkart_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773093189958-fj9dik65965qot050o8kuoi1dcgcn47l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vkart.vkart_admin",
+            "certificate_hash": "07d8a6a12800a65c4c44120010ba2f844de13a58"
+          }
+        },
+        {
+          "client_id": "773093189958-fjhmb0obvlvcdctj9i9oo3dqc0500aje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5H6xfdQEsk2yHXfYLY2Mz3aJf6D_Z4rA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773093189958-fjhmb0obvlvcdctj9i9oo3dqc0500aje.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "773093189958-8202cnn8vg1t9cm46jco2fr5qc2o9jtq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vkart.vkartAdmin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

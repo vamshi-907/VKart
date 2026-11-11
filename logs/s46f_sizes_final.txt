@@ -1,0 +1,48 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 2AF4-788F
+
+ Directory of C:\vkart\vkart_customer\build\app\outputs\apk\release
+
+09/10/2026  01:24 PM        75,046,668 app-release.apk
+               1 File(s)     75,046,668 bytes
+               0 Dir(s)  162,342,232,064 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 2AF4-788F
+
+ Directory of C:\vkart\vkart_customer\build\app\outputs\bundle\release
+
+09/10/2026  01:54 PM        74,702,485 app-release.aab
+               1 File(s)     74,702,485 bytes
+               0 Dir(s)  162,342,232,064 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 2AF4-788F
+
+ Directory of C:\vkart\vkart_admin\build\app\outputs\apk\release
+
+09/17/2026  04:28 PM        55,072,773 app-release.apk
+               1 File(s)     55,072,773 bytes
+               0 Dir(s)  162,342,232,064 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 2AF4-788F
+
+ Directory of C:\vkart\vkart_admin\build\app\outputs\bundle\release
+
+09/17/2026  04:30 PM        55,531,027 app-release.aab
+               1 File(s)     55,531,027 bytes
+               0 Dir(s)  162,342,232,064 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 2AF4-788F
+
+ Directory of C:\vkart\vkart_delivery_partner\build\app\outputs\apk\release
+
+09/17/2026  04:33 PM        51,694,758 app-release.apk
+               1 File(s)     51,694,758 bytes
+               0 Dir(s)  162,342,232,064 bytes free
+ Volume in drive C is Windows
+ Volume Serial Number is 2AF4-788F
+
+ Directory of C:\vkart\vkart_delivery_partner\build\app\outputs\bundle\release
+
+09/17/2026  04:34 PM        52,624,610 app-release.aab
+               1 File(s)     52,624,610 bytes
+               0 Dir(s)  162,342,232,064 bytes free

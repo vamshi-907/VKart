@@ -1,0 +1,19 @@
+﻿C:\vkart\vkart_customer\lib\main.dart:16:import 'providers/delivery_location_provider.dart';
+C:\vkart\vkart_customer\lib\config\delivery_config.dart:1:/// Business rules for VKart's delivery operation, kept in one place so
+C:\vkart\vkart_customer\lib\config\smtp_config.dart:1:/// Centralized SMTP configuration for VKart Customer Gmail delivery.
+C:\vkart\vkart_customer\lib\models\delivery_location_model.dart:3:class DeliveryLocation {
+C:\vkart\vkart_customer\lib\providers\address_provider.dart:13:final String deliveryLocation;
+C:\vkart\vkart_customer\lib\providers\cart_provider.dart:3:import '../config/delivery_config.dart';
+C:\vkart\vkart_customer\lib\providers\delivery_location_provider.dart:3:import '../models/delivery_location_model.dart';
+C:\vkart\vkart_customer\lib\providers\order_provider.dart:89:required String deliveryLocation,
+C:\vkart\vkart_customer\lib\repositories\product_repository.dart:96:deliveryTime: '60 mins',
+C:\vkart\vkart_customer\lib\screens\delivery_location_selection_screen.dart:4:import '../providers/delivery_location_provider.dart';
+C:\vkart\vkart_customer\lib\screens\address\address_screen.dart:10:/// Delivery-address form. Users enter their address details manually.
+C:\vkart\vkart_customer\lib\screens\cart\cart_screen.dart:4:import '../../config/delivery_config.dart';
+C:\vkart\vkart_customer\lib\screens\cart\checkout_screen.dart:5:import '../../config/delivery_config.dart';
+C:\vkart\vkart_customer\lib\screens\home\home_screen.dart:295:"Free Delivery On Orders Above ₹500",
+C:\vkart\vkart_customer\lib\screens\orders\orders_screen.dart:166:// Delivery location chosen by the customer at checkout, stored on the
+C:\vkart\vkart_customer\lib\screens\orders\order_details_screen.dart:62:final freeDelivery = order.deliveryCharge == 0;
+C:\vkart\vkart_customer\lib\screens\product\product_details_screen.dart:5:import '../../config/delivery_config.dart';
+C:\vkart\vkart_customer\lib\services\firestore_service.dart:19:static const String _deliveryDetailsCollection = 'delivery_details';
+C:\vkart\vkart_customer\lib\widgets\home_header.dart:3:import '../providers/delivery_location_provider.dart';

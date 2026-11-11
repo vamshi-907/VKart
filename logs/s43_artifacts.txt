@@ -1,0 +1,11 @@
+﻿
+FullName                                                                         SizeMB LastWriteTime      
+--------                                                                         ------ -------------      
+C:\vkart\vkart_delivery_partner\build\app\outputs\flutter-apk\app-release.apk      49.2 9/5/2026 8:02:41 PM
+C:\vkart\vkart_delivery_partner\build\app\outputs\bundle\release\app-release.aab   50.1 9/5/2026 8:03:23 PM
+C:\vkart\vkart_admin\build\app\outputs\flutter-apk\app-release.apk                 52.2 9/5/2026 7:55:19 PM
+C:\vkart\vkart_admin\build\app\outputs\bundle\release\app-release.aab                52 9/5/2026 7:55:58 PM
+C:\vkart\vkart_customer\build\app\outputs\flutter-apk\app-release.apk              71.5 9/5/2026 7:43:59 PM
+C:\vkart\vkart_customer\build\app\outputs\bundle\release\app-release.aab           71.2 9/5/2026 7:45:29 PM
+
+

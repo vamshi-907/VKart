@@ -1,0 +1,8 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 2AF4-788F
+
+ Directory of C:\vkart\vkart_delivery_partner\build\app\outputs\bundle\release
+
+09/17/2026  04:34 PM        52,624,610 app-release.aab
+               1 File(s)     52,624,610 bytes
+               0 Dir(s)  162,309,029,888 bytes free

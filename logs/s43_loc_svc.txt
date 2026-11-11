@@ -1,0 +1,3 @@
+﻿20: static const String _deliveryLocationsCollection = 'delivery_locations';
+281: Future<List<Map<String, dynamic>>> fetchDeliveryLocations() async {
+283: .collection(_deliveryLocationsCollection)
